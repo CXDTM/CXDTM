@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1095" height="570" viewBox="0 0 1095 570">
+<style>text{font-family:Consolas,"Courier New","DejaVu Sans Mono",monospace;font-size:16px;white-space:pre}@keyframes bg{0%,45%{fill:#161b22}50%,95%{fill:#f6f8fa}100%{fill:#161b22}}.bg{fill:#161b22;animation:bg 4s infinite}@keyframes t{0%,45%{fill:#c9d1d9}50%,95%{fill:#24292f}100%{fill:#c9d1d9}}.t{fill:#c9d1d9;animation:t 4s infinite}@keyframes k{0%,45%{fill:#ffa657}50%,95%{fill:#953800}100%{fill:#ffa657}}.k{fill:#ffa657;animation:k 4s infinite}@keyframes v{0%,45%{fill:#a5d6ff}50%,95%{fill:#0a3069}100%{fill:#a5d6ff}}.v{fill:#a5d6ff;animation:v 4s infinite}@keyframes d{0%,45%{fill:#6e7b8b}50%,95%{fill:#a0aab5}100%{fill:#6e7b8b}}.d{fill:#6e7b8b;animation:d 4s infinite}</style>
+<rect class="bg" width="100%" height="100%" rx="12"/>
+<text class="t" x="15" y="28" xml:space="preserve">               --+*###%##***+-:</text>
+<text class="t" x="15" y="48" xml:space="preserve">            .+%##%#%%@@%%%@@@@@%*-</text>
+<text class="t" x="15" y="68" xml:space="preserve">           :%%%#%#%%%%#%%%%%%@@@@@*</text>
+<text class="t" x="15" y="88" xml:space="preserve">          =%%%@@@@@@@@@@%%%%@@@@@@@*</text>
+<text class="t" x="15" y="108" xml:space="preserve">         +%%@@%*+++++**##%%%@@@@@@@@#.</text>
+<text class="t" x="15" y="128" xml:space="preserve">        *@@@%+-::::.::--==++*#%@@@@@@*</text>
+<text class="t" x="15" y="148" xml:space="preserve">       :@@@*-:.......::----==+*#%@@@@%</text>
+<text class="t" x="15" y="168" xml:space="preserve">       :@%%-:........:::---=+++**#@@@*</text>
+<text class="t" x="15" y="188" xml:space="preserve">       -@%+:...  ...::::::-==+++**%@@=</text>
+<text class="t" x="15" y="208" xml:space="preserve">       :%*:.....    .:...::-===++*#%@:</text>
+<text class="t" x="15" y="228" xml:space="preserve">       .%-:-=+****+=-.:-=+*######**%%</text>
+<text class="t" x="15" y="248" xml:space="preserve">        #-:-=++#%%%*- -*%%%%%%####*##</text>
+<text class="t" x="15" y="268" xml:space="preserve">        +..-=+-#%*#+:.-*%#*#%##%#*+*+</text>
+<text class="t" x="15" y="288" xml:space="preserve">       :-..:::-=+*=:. -+*#######*+++#=</text>
+<text class="t" x="15" y="308" xml:space="preserve">        ::  .::--: .  :+****+++===+**.</text>
+<text class="t" x="15" y="328" xml:space="preserve">        -:    ..   .  .=++========+**.</text>
+<text class="t" x="15" y="348" xml:space="preserve">        ..      ...--=+*#*=---===++#=</text>
+<text class="t" x="15" y="368" xml:space="preserve">         :.    .:::--*+*#***=====+*+.</text>
+<text class="t" x="15" y="388" xml:space="preserve">          :.   :=++=++*####**+==+*+</text>
+<text class="t" x="15" y="408" xml:space="preserve">          .:...-=:--=++*#***++++++</text>
+<text class="t" x="15" y="428" xml:space="preserve">           .-::::..:-+*++=++++***</text>
+<text class="t" x="15" y="448" xml:space="preserve">           .---:.....::-=++***###:</text>
+<text class="t" x="15" y="468" xml:space="preserve">          .+::----==++++****###*#%-</text>
+<text class="t" x="15" y="488" xml:space="preserve">          =#::.:--+**#######****#%+.</text>
+<text class="t" x="15" y="508" xml:space="preserve">          :#+....::-=+******++**%*-. .</text>
+<text class="t" x="15" y="528" xml:space="preserve">           =#=:.::::--==+++++++##..: ::::.</text>
+<text class="t" x="15" y="548" xml:space="preserve">     .     .+#*-:::::--=====+++#: .: .:.-: .:.</text>
+<text x="485.4" y="28" xml:space="preserve"><tspan class="d">- prabhakant@tiwari ----------------------------------------</tspan></text>
+<text x="485.4" y="48" xml:space="preserve"><tspan class="k">. OS: </tspan><tspan class="d">......................... </tspan><tspan class="v">Linux (Ubuntu, RHEL), Windows</tspan></text>
+<text x="485.4" y="68" xml:space="preserve"><tspan class="k">. Uptime: </tspan><tspan class="d">....................... </tspan><tspan class="v">34 years, 6 months, 19 days</tspan></text>
+<text x="485.4" y="88" xml:space="preserve"><tspan class="k">. Role: </tspan><tspan class="d">..................................... </tspan><tspan class="v">DevOps Engineer</tspan></text>
+<text x="485.4" y="108" xml:space="preserve"><tspan class="k">. Experience: </tspan><tspan class="d">............................. </tspan><tspan class="v">3 years, 9 months</tspan></text>
+<text x="485.4" y="128" xml:space="preserve"><tspan class="k">. Cloud: </tspan><tspan class="d">......................................... </tspan><tspan class="v">AWS, Azure</tspan></text>
+<text x="485.4" y="148" xml:space="preserve"><tspan class="k">. CI/CD: </tspan><tspan class="d">................. </tspan><tspan class="v">Jenkins, GitHub Actions, GitLab CI</tspan></text>
+<text x="485.4" y="168" xml:space="preserve"><tspan class="k">. Containers: </tspan><tspan class="d">...................... </tspan><tspan class="v">Docker, Kubernetes, Helm</tspan></text>
+<text x="485.4" y="188" xml:space="preserve"><tspan class="k">. IaC: </tspan><tspan class="d">................................... </tspan><tspan class="v">Terraform, Ansible</tspan></text>
+<text x="485.4" y="208" xml:space="preserve"><tspan class="k">. Monitoring: </tspan><tspan class="d">...................... </tspan><tspan class="v">Prometheus, Grafana, ELK</tspan></text>
+<text x="485.4" y="228" xml:space="preserve"><tspan class="d">.</tspan></text>
+<text x="485.4" y="248" xml:space="preserve"><tspan class="k">. Languages.Programming: </tspan><tspan class="d">............... </tspan><tspan class="v">Bash, Python, Groovy</tspan></text>
+<text x="485.4" y="268" xml:space="preserve"><tspan class="k">. Languages.Computer: </tspan><tspan class="d">........... </tspan><tspan class="v">YAML, JSON, HCL, Dockerfile</tspan></text>
+<text x="485.4" y="288" xml:space="preserve"><tspan class="k">. Languages.Real: </tspan><tspan class="d">............................ </tspan><tspan class="v">English, Hindi</tspan></text>
+<text x="485.4" y="308" xml:space="preserve"><tspan class="d">.</tspan></text>
+<text x="485.4" y="328" xml:space="preserve"><tspan class="k">. Hobbies.Software: </tspan><tspan class="d">................. </tspan><tspan class="v">Automation, Open Source</tspan></text>
+<text x="485.4" y="348" xml:space="preserve"><tspan class="k">. Hobbies.Hardware: </tspan><tspan class="d">................................ </tspan><tspan class="v">Home Lab</tspan></text>
+<text x="485.4" y="388" xml:space="preserve"><tspan class="d">- Contact --------------------------------------------------</tspan></text>
+<text x="485.4" y="408" xml:space="preserve"><tspan class="k">. Email.Personal: </tspan><tspan class="d">...................... </tspan><tspan class="v">your-email@gmail.com</tspan></text>
+<text x="485.4" y="428" xml:space="preserve"><tspan class="k">. LinkedIn: </tspan><tspan class="d">................................ </tspan><tspan class="v">your-linkedin-id</tspan></text>
+<text x="485.4" y="448" xml:space="preserve"><tspan class="k">. GitHub: </tspan><tspan class="d">............................................. </tspan><tspan class="v">CXDTM</tspan></text>
+<text x="485.4" y="488" xml:space="preserve"><tspan class="d">- GitHub Stats ---------------------------------------------</tspan></text>
+<text x="485.4" y="508" xml:space="preserve"><tspan class="k">. Repos: </tspan><tspan class="d">....................................... </tspan><tspan class="v">2 | Stars: 3</tspan></text>
+<text x="485.4" y="528" xml:space="preserve"><tspan class="k">. Commits: </tspan><tspan class="d">................................. </tspan><tspan class="v">5 | Followers: 0</tspan></text>
+</svg>
