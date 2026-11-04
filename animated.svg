@@ -20,21 +20,21 @@
 <text class="k" x="48" y="182" xml:space="preserve">os:</text>
 <text class="s" x="190" y="182" xml:space="preserve">linux · windows</text>
 <text class="k" x="48" y="202" xml:space="preserve">languages:</text>
-<text class="s" x="190" y="202" xml:space="preserve">english · hindi</text>
+<text class="s" x="190" y="202" xml:space="preserve">English · Hindi</text>
 <text class="p" x="28" y="242" xml:space="preserve">$</text>
 <text class="t" x="48" y="242" xml:space="preserve">./stack --list</text>
 <text class="k" x="48" y="262" xml:space="preserve">cloud</text>
-<text class="s" x="190" y="262" xml:space="preserve">AWS · Azure</text>
+<text class="s" x="190" y="262" xml:space="preserve">Azure . AWS</text>
 <text class="k" x="48" y="282" xml:space="preserve">ci/cd</text>
 <text class="s" x="190" y="282" xml:space="preserve">Jenkins · GitHub Actions · GitLab CI</text>
 <text class="k" x="48" y="302" xml:space="preserve">containers</text>
 <text class="s" x="190" y="302" xml:space="preserve">Docker · Kubernetes · Helm</text>
 <text class="k" x="48" y="322" xml:space="preserve">iac</text>
-<text class="s" x="190" y="322" xml:space="preserve">Terraform · Ansible</text>
+<text class="s" x="190" y="322" xml:space="preserve">Terraform</text>
 <text class="k" x="48" y="342" xml:space="preserve">observe</text>
 <text class="s" x="190" y="342" xml:space="preserve">Prometheus · Grafana · ELK</text>
 <text class="k" x="48" y="362" xml:space="preserve">code</text>
-<text class="s" x="190" y="362" xml:space="preserve">Bash · Python · Groovy · YAML · HCL</text>
+<text class="s" x="190" y="362" xml:space="preserve">Bash · Python · YAML · HCL</text>
 <text class="p" x="28" y="402" xml:space="preserve">$</text>
 <text class="t" x="48" y="402" xml:space="preserve">./pipeline.sh</text>
 <text class="p" x="48" y="422" xml:space="preserve">● build</text>
@@ -45,9 +45,9 @@
 <text class="p" x="28" y="462" xml:space="preserve">$</text>
 <text class="t" x="48" y="462" xml:space="preserve">./contact.sh</text>
 <text class="k" x="48" y="482" xml:space="preserve">mail</text>
-<text class="s" x="190" y="482" xml:space="preserve">your-email@gmail.com</text>
+<text class="s" x="190" y="482" xml:space="preserve">your-prabhakanttiwari@gmail.com</text>
 <text class="k" x="48" y="502" xml:space="preserve">linkedin</text>
-<text class="s" x="190" y="502" xml:space="preserve">your-linkedin-id</text>
+<text class="s" x="190" y="502" xml:space="preserve">https://www.linkedin.com/in/prabhakant-tiwari-86637476/</text>
 <text class="k" x="48" y="522" xml:space="preserve">github</text>
 <text class="s" x="190" y="522" xml:space="preserve">github.com/CXDTM</text>
 <text class="p" x="28" y="562" xml:space="preserve">$</text>
