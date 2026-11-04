@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1028" height="412" viewBox="0 0 1028 412">
+<style>text{font-family:"JetBrains Mono","Fira Code",Consolas,"DejaVu Sans Mono",monospace;font-size:14px;white-space:pre}.b{font-weight:700}@keyframes a_bg{0%,45%{fill:#1a1b26}50%,95%{fill:#f5f5f9}100%{fill:#1a1b26}}.bg{fill:#1a1b26;animation:a_bg 4s infinite}@keyframes a_bar{0%,45%{fill:#13141c}50%,95%{fill:#e4e5ee}100%{fill:#13141c}}.bar{fill:#13141c;animation:a_bar 4s infinite}@keyframes a_box{0%,45%{fill:#20222f}50%,95%{fill:#ebecf3}100%{fill:#20222f}}.box{fill:#20222f;animation:a_box 4s infinite}@keyframes a_t{0%,45%{fill:#c0caf5}50%,95%{fill:#343b58}100%{fill:#c0caf5}}.t{fill:#c0caf5;animation:a_t 4s infinite}@keyframes a_p{0%,45%{fill:#9ece6a}50%,95%{fill:#33635c}100%{fill:#9ece6a}}.p{fill:#9ece6a;animation:a_p 4s infinite}@keyframes a_k{0%,45%{fill:#7dcfff}50%,95%{fill:#0f4b6e}100%{fill:#7dcfff}}.k{fill:#7dcfff;animation:a_k 4s infinite}@keyframes a_c{0%,45%{fill:#565f89}50%,95%{fill:#7c7f94}100%{fill:#565f89}}.c{fill:#565f89;animation:a_c 4s infinite}@keyframes a_m{0%,45%{fill:#bb9af7}50%,95%{fill:#5a3e8e}100%{fill:#bb9af7}}.m{fill:#bb9af7;animation:a_m 4s infinite}@keyframes a_sc{0%,45%{stroke:#565f89}50%,95%{stroke:#7c7f94}100%{stroke:#565f89}}.sc{stroke:#565f89;animation:a_sc 4s infinite}@keyframes a_sk{0%,45%{stroke:#7dcfff}50%,95%{stroke:#0f4b6e}100%{stroke:#7dcfff}}.sk{stroke:#7dcfff;animation:a_sk 4s infinite}@keyframes a_sp{0%,45%{stroke:#9ece6a}50%,95%{stroke:#33635c}100%{stroke:#9ece6a}}.sp{stroke:#9ece6a;animation:a_sp 4s infinite}@keyframes q0{0%,6.67%{opacity:1}6.68%,96%{opacity:0}100%{opacity:1}}.q0{animation:q0 12.0s infinite}@keyframes r0{0%,6.67%{opacity:0}6.68%,15.00%{opacity:1}15.01%,100%{opacity:0}}.r0{opacity:0;animation:r0 12.0s infinite}@keyframes d0{0%,15.00%{opacity:0}15.01%,95%{opacity:1}100%{opacity:0}}.d0{opacity:0;animation:d0 12.0s infinite}@keyframes q1{0%,20.00%{opacity:1}20.01%,96%{opacity:0}100%{opacity:1}}.q1{animation:q1 12.0s infinite}@keyframes r1{0%,20.00%{opacity:0}20.01%,28.33%{opacity:1}28.34%,100%{opacity:0}}.r1{opacity:0;animation:r1 12.0s infinite}@keyframes d1{0%,28.33%{opacity:0}28.34%,95%{opacity:1}100%{opacity:0}}.d1{opacity:0;animation:d1 12.0s infinite}@keyframes q2{0%,33.33%{opacity:1}33.34%,96%{opacity:0}100%{opacity:1}}.q2{animation:q2 12.0s infinite}@keyframes r2{0%,33.33%{opacity:0}33.34%,41.67%{opacity:1}41.68%,100%{opacity:0}}.r2{opacity:0;animation:r2 12.0s infinite}@keyframes d2{0%,41.67%{opacity:0}41.68%,95%{opacity:1}100%{opacity:0}}.d2{opacity:0;animation:d2 12.0s infinite}@keyframes q3{0%,46.67%{opacity:1}46.68%,96%{opacity:0}100%{opacity:1}}.q3{animation:q3 12.0s infinite}@keyframes r3{0%,46.67%{opacity:0}46.68%,55.00%{opacity:1}55.01%,100%{opacity:0}}.r3{opacity:0;animation:r3 12.0s infinite}@keyframes d3{0%,55.00%{opacity:0}55.01%,95%{opacity:1}100%{opacity:0}}.d3{opacity:0;animation:d3 12.0s infinite}@keyframes q4{0%,60.00%{opacity:1}60.01%,96%{opacity:0}100%{opacity:1}}.q4{animation:q4 12.0s infinite}@keyframes r4{0%,60.00%{opacity:0}60.01%,68.33%{opacity:1}68.34%,100%{opacity:0}}.r4{opacity:0;animation:r4 12.0s infinite}@keyframes d4{0%,68.33%{opacity:0}68.34%,95%{opacity:1}100%{opacity:0}}.d4{opacity:0;animation:d4 12.0s infinite}@keyframes q5{0%,73.33%{opacity:1}73.34%,96%{opacity:0}100%{opacity:1}}.q5{animation:q5 12.0s infinite}@keyframes r5{0%,73.33%{opacity:0}73.34%,81.67%{opacity:1}81.68%,100%{opacity:0}}.r5{opacity:0;animation:r5 12.0s infinite}@keyframes d5{0%,81.67%{opacity:0}81.68%,95%{opacity:1}100%{opacity:0}}.d5{opacity:0;animation:d5 12.0s infinite}@keyframes bn{0%,85.00%{opacity:0}85.01%,95%{opacity:1}100%{opacity:0}}.bn{opacity:0;animation:bn 12.0s infinite}@keyframes pkt{0.00%{transform:translateX(0px);opacity:1}6.67%{transform:translateX(0px);opacity:1}15.00%{transform:translateX(0px);opacity:1}20.00%{transform:translateX(160px);opacity:1}28.33%{transform:translateX(160px);opacity:1}33.33%{transform:translateX(320px);opacity:1}41.67%{transform:translateX(320px);opacity:1}46.67%{transform:translateX(480px);opacity:1}55.00%{transform:translateX(480px);opacity:1}60.00%{transform:translateX(640px);opacity:1}68.33%{transform:translateX(640px);opacity:1}73.33%{transform:translateX(800px);opacity:1}81.67%{transform:translateX(800px);opacity:1}95.00%{transform:translateX(800px);opacity:1}97%{transform:translateX(800px);opacity:0}99%{transform:translateX(0px);opacity:0}100%{transform:translateX(0px);opacity:1}}.pkt{animation:pkt 12.0s infinite}@keyframes prg{0.00%{transform:scaleX(0.0000);opacity:1}6.67%{transform:scaleX(0.0000);opacity:1}15.00%{transform:scaleX(0.0000);opacity:1}20.00%{transform:scaleX(0.2000);opacity:1}28.33%{transform:scaleX(0.2000);opacity:1}33.33%{transform:scaleX(0.4000);opacity:1}41.67%{transform:scaleX(0.4000);opacity:1}46.67%{transform:scaleX(0.6000);opacity:1}55.00%{transform:scaleX(0.6000);opacity:1}60.00%{transform:scaleX(0.8000);opacity:1}68.33%{transform:scaleX(0.8000);opacity:1}73.33%{transform:scaleX(1.0000);opacity:1}81.67%{transform:scaleX(1.0000);opacity:1}95.00%{transform:scaleX(1.0000);opacity:1}97%{transform:scaleX(1.0000);opacity:0}99%{transform:scaleX(0.0000);opacity:0}100%{transform:scaleX(0.0000);opacity:1}}.prg{animation:prg 12.0s infinite}.prg{transform-origin:114px 172px}</style>
+<rect class="bg" width="1028" height="412" rx="12"/>
+<rect class="bar" width="1028" height="36" rx="12"/><rect class="bar" y="24" width="1028" height="12"/>
+<circle cx="22" cy="18" r="6" fill="#ff5f56"/><circle cx="42" cy="18" r="6" fill="#ffbd2e"/><circle cx="62" cy="18" r="6" fill="#27c93f"/>
+<text class="c" x="514.0" y="23" text-anchor="middle" style="font-size:13px">pipeline #142 · main → production</text>
+<rect class="box" x="49" y="62" width="130" height="84" rx="10"/>
+<rect class="sc" x="49" y="62" width="130" height="84" rx="10" fill="none" stroke-width="1.5"/>
+<g class="r0"><rect class="sk" x="49" y="62" width="130" height="84" rx="10" fill="none" stroke-width="2.5"/></g>
+<g class="d0"><rect class="sp" x="49" y="62" width="130" height="84" rx="10" fill="none" stroke-width="2.5"/></g>
+<text class="t b" x="114.0" y="100" text-anchor="middle" style="font-size:15px">COMMIT</text>
+<g class="q0"><text class="c" x="114.0" y="124" text-anchor="middle" style="font-size:12px">queued</text></g>
+<g class="r0"><text class="k" x="114.0" y="124" text-anchor="middle" style="font-size:12px">running…</text></g>
+<g class="d0"><text class="p" x="114.0" y="124" text-anchor="middle" style="font-size:12px">✔ passed</text></g>
+<text class="c" x="194" y="109" text-anchor="middle">→</text>
+<rect class="box" x="209" y="62" width="130" height="84" rx="10"/>
+<rect class="sc" x="209" y="62" width="130" height="84" rx="10" fill="none" stroke-width="1.5"/>
+<g class="r1"><rect class="sk" x="209" y="62" width="130" height="84" rx="10" fill="none" stroke-width="2.5"/></g>
+<g class="d1"><rect class="sp" x="209" y="62" width="130" height="84" rx="10" fill="none" stroke-width="2.5"/></g>
+<text class="t b" x="274.0" y="100" text-anchor="middle" style="font-size:15px">BUILD</text>
+<g class="q1"><text class="c" x="274.0" y="124" text-anchor="middle" style="font-size:12px">queued</text></g>
+<g class="r1"><text class="k" x="274.0" y="124" text-anchor="middle" style="font-size:12px">running…</text></g>
+<g class="d1"><text class="p" x="274.0" y="124" text-anchor="middle" style="font-size:12px">✔ passed</text></g>
+<text class="c" x="354" y="109" text-anchor="middle">→</text>
+<rect class="box" x="369" y="62" width="130" height="84" rx="10"/>
+<rect class="sc" x="369" y="62" width="130" height="84" rx="10" fill="none" stroke-width="1.5"/>
+<g class="r2"><rect class="sk" x="369" y="62" width="130" height="84" rx="10" fill="none" stroke-width="2.5"/></g>
+<g class="d2"><rect class="sp" x="369" y="62" width="130" height="84" rx="10" fill="none" stroke-width="2.5"/></g>
+<text class="t b" x="434.0" y="100" text-anchor="middle" style="font-size:15px">TEST</text>
+<g class="q2"><text class="c" x="434.0" y="124" text-anchor="middle" style="font-size:12px">queued</text></g>
+<g class="r2"><text class="k" x="434.0" y="124" text-anchor="middle" style="font-size:12px">running…</text></g>
+<g class="d2"><text class="p" x="434.0" y="124" text-anchor="middle" style="font-size:12px">✔ passed</text></g>
+<text class="c" x="514" y="109" text-anchor="middle">→</text>
+<rect class="box" x="529" y="62" width="130" height="84" rx="10"/>
+<rect class="sc" x="529" y="62" width="130" height="84" rx="10" fill="none" stroke-width="1.5"/>
+<g class="r3"><rect class="sk" x="529" y="62" width="130" height="84" rx="10" fill="none" stroke-width="2.5"/></g>
+<g class="d3"><rect class="sp" x="529" y="62" width="130" height="84" rx="10" fill="none" stroke-width="2.5"/></g>
+<text class="t b" x="594.0" y="100" text-anchor="middle" style="font-size:15px">SCAN</text>
+<g class="q3"><text class="c" x="594.0" y="124" text-anchor="middle" style="font-size:12px">queued</text></g>
+<g class="r3"><text class="k" x="594.0" y="124" text-anchor="middle" style="font-size:12px">running…</text></g>
+<g class="d3"><text class="p" x="594.0" y="124" text-anchor="middle" style="font-size:12px">✔ passed</text></g>
+<text class="c" x="674" y="109" text-anchor="middle">→</text>
+<rect class="box" x="689" y="62" width="130" height="84" rx="10"/>
+<rect class="sc" x="689" y="62" width="130" height="84" rx="10" fill="none" stroke-width="1.5"/>
+<g class="r4"><rect class="sk" x="689" y="62" width="130" height="84" rx="10" fill="none" stroke-width="2.5"/></g>
+<g class="d4"><rect class="sp" x="689" y="62" width="130" height="84" rx="10" fill="none" stroke-width="2.5"/></g>
+<text class="t b" x="754.0" y="100" text-anchor="middle" style="font-size:15px">DEPLOY</text>
+<g class="q4"><text class="c" x="754.0" y="124" text-anchor="middle" style="font-size:12px">queued</text></g>
+<g class="r4"><text class="k" x="754.0" y="124" text-anchor="middle" style="font-size:12px">running…</text></g>
+<g class="d4"><text class="p" x="754.0" y="124" text-anchor="middle" style="font-size:12px">✔ passed</text></g>
+<text class="c" x="834" y="109" text-anchor="middle">→</text>
+<rect class="box" x="849" y="62" width="130" height="84" rx="10"/>
+<rect class="sc" x="849" y="62" width="130" height="84" rx="10" fill="none" stroke-width="1.5"/>
+<g class="r5"><rect class="sk" x="849" y="62" width="130" height="84" rx="10" fill="none" stroke-width="2.5"/></g>
+<g class="d5"><rect class="sp" x="849" y="62" width="130" height="84" rx="10" fill="none" stroke-width="2.5"/></g>
+<text class="t b" x="914.0" y="100" text-anchor="middle" style="font-size:15px">MONITOR</text>
+<g class="q5"><text class="c" x="914.0" y="124" text-anchor="middle" style="font-size:12px">queued</text></g>
+<g class="r5"><text class="k" x="914.0" y="124" text-anchor="middle" style="font-size:12px">running…</text></g>
+<g class="d5"><text class="p" x="914.0" y="124" text-anchor="middle" style="font-size:12px">✔ passed</text></g>
+<rect class="c" x="114" y="171" width="800" height="2" rx="1" opacity="0.5"/>
+<g class="prg"><rect class="k" x="114" y="170" width="800" height="4" rx="2"/></g>
+<g class="pkt"><circle class="m" cx="114" cy="172" r="7"/></g>
+<g class="d0"><text class="k" x="28" y="222">▸</text><text class="t" x="48" y="222">commit</text><text class="c" x="140" y="222">git push origin main · webhook triggers the pipeline</text><text class="p" x="860" y="222">✔ 2s</text></g>
+<g class="d1"><text class="k" x="28" y="246">▸</text><text class="t" x="48" y="246">build</text><text class="c" x="140" y="246">docker build -t app:142</text><text class="p" x="860" y="246">✔ 41s</text></g>
+<g class="d2"><text class="k" x="28" y="270">▸</text><text class="t" x="48" y="270">test</text><text class="c" x="140" y="270">unit + integration tests passed</text><text class="p" x="860" y="270">✔ 58s</text></g>
+<g class="d3"><text class="k" x="28" y="294">▸</text><text class="t" x="48" y="294">scan</text><text class="c" x="140" y="294">image and dependency security checks, 0 critical</text><text class="p" x="860" y="294">✔ 33s</text></g>
+<g class="d4"><text class="k" x="28" y="318">▸</text><text class="t" x="48" y="318">deploy</text><text class="c" x="140" y="318">kubectl rollout status deployment/app</text><text class="p" x="860" y="318">✔ 27s</text></g>
+<g class="d5"><text class="k" x="28" y="342">▸</text><text class="t" x="48" y="342">monitor</text><text class="c" x="140" y="342">dashboards green · alerts quiet</text><text class="p" x="860" y="342">✔ live</text></g>
+<g class="bn"><text class="p b" x="28" y="380">● pipeline #142 succeeded · deployed to production</text></g>
+<text class="c" x="1008" y="400" text-anchor="end" style="font-size:11px">illustrative run</text>
+</svg>

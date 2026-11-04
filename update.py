@@ -10,12 +10,14 @@ USERNAME   = "CXDTM"
 DOB        = date(1992, 4, 15)
 EXP_START  = date(2023, 1, 15)   # DevOps career start (about 3.8 years as of Nov 2026)
 HEADER     = "prabhakant@tiwari"
-EMAIL      = "your-email@gmail.com"
-LINKEDIN   = "your-linkedin-id"
+EMAIL      = "prabhakantshandilya@gmail.com"
+LINKEDIN   = "https://www.linkedin.com/in/prabhakant-tiwari-86637476/"
 USE_AVATAR = True    # True = ASCII art follows your GitHub profile picture; False = keep art.txt as it is
 SWITCH_SECONDS = 2      # dark <-> light every N seconds
 FALLBACK   = dict(repos=2, stars=3, followers=0, commits=5)   # used if the GitHub API fails
 # ===========================================
+
+LINKEDIN_SHORT = LINKEDIN.replace("https://www.linkedin.com/", "").replace("https://linkedin.com/", "").rstrip("/")
 
 def diff(a, b):
     y, m, d = b.year - a.year, b.month - a.month, b.day - a.day
@@ -126,19 +128,19 @@ rows = [
     kv("languages:", "english · hindi"),
     [],
     cmd("./stack --list"),
-    kv("cloud", "AWS · Azure"),
+    kv("cloud", "Azure · AWS"),
     kv("ci/cd", "Jenkins · GitHub Actions · GitLab CI"),
     kv("containers", "Docker · Kubernetes · Helm"),
-    kv("iac", "Terraform · Ansible"),
+    kv("iac", "Terraform"),
     kv("observe", "Prometheus · Grafana · ELK"),
-    kv("code", "Bash · Python · Groovy · YAML · HCL"),
+    kv("code", "Bash · Python · YAML · HCL"),
     [],
     cmd("./pipeline.sh"),
     [(48, "p", "● build"), (140, "c", "→"), (160, "p", "● test"), (245, "c", "→"), (265, "p", "● deploy")],
     [],
     cmd("./contact.sh"),
     kv("mail", EMAIL),
-    kv("linkedin", LINKEDIN),
+    kv("linkedin", LINKEDIN_SHORT),
     kv("github", "github.com/" + USERNAME),
     [],
     cmd("git shortlog --stats"),
