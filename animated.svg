@@ -1,92 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1028" height="666" viewBox="0 0 1028 666" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo4OWVlMWQ3NS1kYzhhLTQyNDMtYmVhMi04MjYxNDEzZWJiMmEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaMRIr4CODt9MgKM358Z0LCsAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo2NjJlMDA5ZS02NDBkLTRmY2ItOGVhMC03NDY4YzMxNTQyYmFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNohiq6FDqxF219EGwh2b0Y7QAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggp8A//LA2BSGSKR+HPsxKSphcdOjEM1V7LFRKvHQdXw2kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaGZ4E2yYM/1GhTKQ14NAg/4AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDUqXC8Dqwc3HTbsP9wLWjTP+5uU1+Sy7mHRaeToW5Pa2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiYZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjg5ZWUxZDc1LWRjOGEtNDI0My1iZWEyLTgyNjE0MTNlYmIyYS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmQwZTRmNmY1LTNhY2UtNGRiNC1iZjhhLTA3MDJjYTRkOWRjNnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCnwD/8sDYFIZIpH4c+zEpKmFx06MQzVXssVEq8dB1fDaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggRP8MdRhm6RY8wmYL/qNuZxevS0DU++OWb7st4QnO64GiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggl1eIMDIXGPs/g5EIqzUAzf4mxMEAp+lTfVHiNKaH7BB0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQLIfJorHZGjfaFZE0+cLg1pVfliKoUnGAikqXJbVCdxiF3dNG6sp0gOEs9qOK5dmvN34jok/r4j1fmmXVwLigWg=</c2pa:manifest></metadata>
-<style>text{font-family:"JetBrains Mono","Fira Code",Consolas,"DejaVu Sans Mono",monospace;font-size:15px;white-space:pre}.m{font-weight:700}.art{font-size:13px}.ttl{font-size:13px}@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}.cur{animation:blink 1s step-end infinite}@keyframes a_bg{0%,45%{fill:#1a1b26}50%,95%{fill:#f5f5f9}100%{fill:#1a1b26}}.bg{fill:#1a1b26;animation:a_bg 4s infinite}@keyframes a_bar{0%,45%{fill:#13141c}50%,95%{fill:#e4e5ee}100%{fill:#13141c}}.bar{fill:#13141c;animation:a_bar 4s infinite}@keyframes a_t{0%,45%{fill:#c0caf5}50%,95%{fill:#343b58}100%{fill:#c0caf5}}.t{fill:#c0caf5;animation:a_t 4s infinite}@keyframes a_p{0%,45%{fill:#9ece6a}50%,95%{fill:#33635c}100%{fill:#9ece6a}}.p{fill:#9ece6a;animation:a_p 4s infinite}@keyframes a_k{0%,45%{fill:#7dcfff}50%,95%{fill:#0f4b6e}100%{fill:#7dcfff}}.k{fill:#7dcfff;animation:a_k 4s infinite}@keyframes a_s{0%,45%{fill:#ff9e64}50%,95%{fill:#965027}100%{fill:#ff9e64}}.s{fill:#ff9e64;animation:a_s 4s infinite}@keyframes a_c{0%,45%{fill:#565f89}50%,95%{fill:#7c7f94}100%{fill:#565f89}}.c{fill:#565f89;animation:a_c 4s infinite}@keyframes a_m{0%,45%{fill:#bb9af7}50%,95%{fill:#5a3e8e}100%{fill:#bb9af7}}.m{fill:#bb9af7;animation:a_m 4s infinite}@keyframes a_a{0%,45%{fill:#7aa2f7}50%,95%{fill:#34548a}100%{fill:#7aa2f7}}.a{fill:#7aa2f7;animation:a_a 4s infinite}</style>
-<rect class="bg" width="1028" height="666" rx="12"/>
-<rect class="bar" width="1028" height="36" rx="12"/>
-<rect class="bar" y="24" width="1028" height="12"/>
-<circle cx="22" cy="18" r="6" fill="#ff5f56"/><circle cx="42" cy="18" r="6" fill="#ffbd2e"/><circle cx="62" cy="18" r="6" fill="#27c93f"/>
-<text class="c ttl" x="514.0" y="23" text-anchor="middle">cxdtm@devops: ~/profile</text>
-<rect class="c" x="610" y="56" width="1" height="590" opacity="0.5"/>
-<text class="p" x="28" y="62" xml:space="preserve">$</text>
-<text class="t" x="48" y="62" xml:space="preserve">whoami</text>
-<text class="m" x="48" y="82" xml:space="preserve">PRABHAKANT TIWARI</text>
-<text class="c" x="270" y="82" xml:space="preserve">//</text>
-<text class="s" x="295" y="82" xml:space="preserve">DevOps Engineer</text>
-<text class="p" x="28" y="122" xml:space="preserve">$</text>
-<text class="t" x="48" y="122" xml:space="preserve">cat profile.yaml</text>
-<text class="k" x="48" y="142" xml:space="preserve">age:</text>
-<text class="s" x="190" y="142" xml:space="preserve">34y 6m 20d</text>
-<text class="k" x="48" y="162" xml:space="preserve">experience:</text>
-<text class="s" x="190" y="162" xml:space="preserve">3y 9m</text>
-<text class="k" x="48" y="182" xml:space="preserve">os:</text>
-<text class="s" x="190" y="182" xml:space="preserve">linux · windows</text>
-<text class="k" x="48" y="202" xml:space="preserve">languages:</text>
-<text class="s" x="190" y="202" xml:space="preserve">english · hindi</text>
-<text class="p" x="28" y="242" xml:space="preserve">$</text>
-<text class="t" x="48" y="242" xml:space="preserve">./stack --list</text>
-<text class="k" x="48" y="262" xml:space="preserve">cloud</text>
-<text class="s" x="190" y="262" xml:space="preserve">Azure · AWS</text>
-<text class="k" x="48" y="282" xml:space="preserve">ci/cd</text>
-<text class="s" x="190" y="282" xml:space="preserve">Jenkins · GitHub Actions · GitLab CI</text>
-<text class="k" x="48" y="302" xml:space="preserve">containers</text>
-<text class="s" x="190" y="302" xml:space="preserve">Docker · Kubernetes · Helm</text>
-<text class="k" x="48" y="322" xml:space="preserve">iac</text>
-<text class="s" x="190" y="322" xml:space="preserve">Terraform</text>
-<text class="k" x="48" y="342" xml:space="preserve">observe</text>
-<text class="s" x="190" y="342" xml:space="preserve">Prometheus · Grafana · ELK</text>
-<text class="k" x="48" y="362" xml:space="preserve">code</text>
-<text class="s" x="190" y="362" xml:space="preserve">Bash · Python · YAML · HCL</text>
-<text class="p" x="28" y="402" xml:space="preserve">$</text>
-<text class="t" x="48" y="402" xml:space="preserve">./pipeline.sh</text>
-<text class="p" x="48" y="422" xml:space="preserve">● build</text>
-<text class="c" x="140" y="422" xml:space="preserve">→</text>
-<text class="p" x="160" y="422" xml:space="preserve">● test</text>
-<text class="c" x="245" y="422" xml:space="preserve">→</text>
-<text class="p" x="265" y="422" xml:space="preserve">● deploy</text>
-<text class="p" x="28" y="462" xml:space="preserve">$</text>
-<text class="t" x="48" y="462" xml:space="preserve">./contact.sh</text>
-<text class="k" x="48" y="482" xml:space="preserve">mail</text>
-<text class="s" x="190" y="482" xml:space="preserve">prabhakantshandilya@gmail.com</text>
-<text class="k" x="48" y="502" xml:space="preserve">linkedin</text>
-<text class="s" x="190" y="502" xml:space="preserve">in/prabhakant-tiwari-86637476</text>
-<text class="k" x="48" y="522" xml:space="preserve">github</text>
-<text class="s" x="190" y="522" xml:space="preserve">github.com/CXDTM</text>
-<text class="p" x="28" y="562" xml:space="preserve">$</text>
-<text class="t" x="48" y="562" xml:space="preserve">git shortlog --stats</text>
-<text class="k" x="48" y="582" xml:space="preserve">repos</text>
-<text class="s" x="108" y="582" xml:space="preserve">2</text>
-<text class="k" x="150" y="582" xml:space="preserve">stars</text>
-<text class="s" x="210" y="582" xml:space="preserve">3</text>
-<text class="k" x="250" y="582" xml:space="preserve">followers</text>
-<text class="s" x="340" y="582" xml:space="preserve">0</text>
-<text class="k" x="385" y="582" xml:space="preserve">commits</text>
-<text class="s" x="465" y="582" xml:space="preserve">5</text>
-<text class="p" x="28" y="622" xml:space="preserve">$</text>
-<rect class="p cur" x="48" y="609" width="9" height="16"/>
-<text class="a art" x="640" y="162.0" xml:space="preserve" textLength="241.8" lengthAdjust="spacing">               --+*###%##***+-:</text>
-<text class="a art" x="640" y="176.0" xml:space="preserve" textLength="265.2" lengthAdjust="spacing">            .+%##%#%%@@%%%@@@@@%*-</text>
-<text class="a art" x="640" y="190.0" xml:space="preserve" textLength="273.0" lengthAdjust="spacing">           :%%%#%#%%%%#%%%%%%@@@@@*</text>
-<text class="a art" x="640" y="204.0" xml:space="preserve" textLength="280.8" lengthAdjust="spacing">          =%%%@@@@@@@@@@%%%%@@@@@@@*</text>
-<text class="a art" x="640" y="218.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">         +%%@@%*+++++**##%%%@@@@@@@@#.</text>
-<text class="a art" x="640" y="232.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">        *@@@%+-::::.::--==++*#%@@@@@@*</text>
-<text class="a art" x="640" y="246.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">       :@@@*-:.......::----==+*#%@@@@%</text>
-<text class="a art" x="640" y="260.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">       :@%%-:........:::---=+++**#@@@*</text>
-<text class="a art" x="640" y="274.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">       -@%+:...  ...::::::-==+++**%@@=</text>
-<text class="a art" x="640" y="288.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">       :%*:.....    .:...::-===++*#%@:</text>
-<text class="a art" x="640" y="302.0" xml:space="preserve" textLength="288.6" lengthAdjust="spacing">       .%-:-=+****+=-.:-=+*######**%%</text>
-<text class="a art" x="640" y="316.0" xml:space="preserve" textLength="288.6" lengthAdjust="spacing">        #-:-=++#%%%*- -*%%%%%%####*##</text>
-<text class="a art" x="640" y="330.0" xml:space="preserve" textLength="288.6" lengthAdjust="spacing">        +..-=+-#%*#+:.-*%#*#%##%#*+*+</text>
-<text class="a art" x="640" y="344.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">       :-..:::-=+*=:. -+*#######*+++#=</text>
-<text class="a art" x="640" y="358.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">        ::  .::--: .  :+****+++===+**.</text>
-<text class="a art" x="640" y="372.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">        -:    ..   .  .=++========+**.</text>
-<text class="a art" x="640" y="386.0" xml:space="preserve" textLength="288.6" lengthAdjust="spacing">        ..      ...--=+*#*=---===++#=</text>
-<text class="a art" x="640" y="400.0" xml:space="preserve" textLength="288.6" lengthAdjust="spacing">         :.    .:::--*+*#***=====+*+.</text>
-<text class="a art" x="640" y="414.0" xml:space="preserve" textLength="273.0" lengthAdjust="spacing">          :.   :=++=++*####**+==+*+</text>
-<text class="a art" x="640" y="428.0" xml:space="preserve" textLength="265.2" lengthAdjust="spacing">          .:...-=:--=++*#***++++++</text>
-<text class="a art" x="640" y="442.0" xml:space="preserve" textLength="257.4" lengthAdjust="spacing">           .-::::..:-+*++=++++***</text>
-<text class="a art" x="640" y="456.0" xml:space="preserve" textLength="265.2" lengthAdjust="spacing">           .---:.....::-=++***###:</text>
-<text class="a art" x="640" y="470.0" xml:space="preserve" textLength="273.0" lengthAdjust="spacing">          .+::----==++++****###*#%-</text>
-<text class="a art" x="640" y="484.0" xml:space="preserve" textLength="280.8" lengthAdjust="spacing">          =#::.:--+**#######****#%+.</text>
-<text class="a art" x="640" y="498.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">          :#+....::-=+******++**%*-. .</text>
-<text class="a art" x="640" y="512.0" xml:space="preserve" textLength="327.6" lengthAdjust="spacing">           =#=:.::::--==+++++++##..: ::::.</text>
-<text class="a art" x="640" y="526.0" xml:space="preserve" textLength="358.8" lengthAdjust="spacing">     .     .+#*-:::::--=====+++#: .: .:.-: .:.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1079" height="608" viewBox="0 0 1079 608" role="img">
+<title>prabhakant@tiwari profile card</title>
+<style>text{font-family:"JetBrains Mono","Fira Code",Consolas,"DejaVu Sans Mono",monospace;font-size:15px;white-space:pre}.art{font-size:13px}@keyframes a_bg{0%,45%{fill:#1a1b26}50%,95%{fill:#f5f5f9}100%{fill:#1a1b26}}.bg{fill:#1a1b26;animation:a_bg 4s infinite}@keyframes a_t{0%,45%{fill:#c0caf5}50%,95%{fill:#343b58}100%{fill:#c0caf5}}.t{fill:#c0caf5;animation:a_t 4s infinite}@keyframes a_k{0%,45%{fill:#7dcfff}50%,95%{fill:#0f4b6e}100%{fill:#7dcfff}}.k{fill:#7dcfff;animation:a_k 4s infinite}@keyframes a_s{0%,45%{fill:#ff9e64}50%,95%{fill:#965027}100%{fill:#ff9e64}}.s{fill:#ff9e64;animation:a_s 4s infinite}@keyframes a_c{0%,45%{fill:#565f89}50%,95%{fill:#7c7f94}100%{fill:#565f89}}.c{fill:#565f89;animation:a_c 4s infinite}@keyframes a_a{0%,45%{fill:#7aa2f7}50%,95%{fill:#34548a}100%{fill:#7aa2f7}}.a{fill:#7aa2f7;animation:a_a 4s infinite}</style>
+<rect class="bg" width="1079" height="608" rx="14"/>
+<text x="28" y="46" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="t">prabhakant@tiwari </tspan><tspan class="c">--------------------------------------------</tspan></text>
+<text x="28" y="66" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. OS: </tspan><tspan class="c">......................................... </tspan><tspan class="k">Linux, Windows</tspan></text>
+<text x="28" y="86" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Uptime: </tspan><tspan class="c">........................ </tspan><tspan class="k">34 years, 6 months, 20 days</tspan></text>
+<text x="28" y="106" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Role: </tspan><tspan class="c">...................................... </tspan><tspan class="k">DevOps Engineer</tspan></text>
+<text x="28" y="126" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Current.Job: </tspan><tspan class="c">.................. </tspan><tspan class="k">since 16 May 2026 (5 months)</tspan></text>
+<text x="28" y="146" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Experience.Total: </tspan><tspan class="c">................................ </tspan><tspan class="k">6.1 years</tspan></text>
+<text x="28" y="166" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Experience.Mechanical: </tspan><tspan class="c">........................... </tspan><tspan class="k">2.3 years</tspan></text>
+<text x="28" y="186" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Experience.DevOps: </tspan><tspan class="c">............................... </tspan><tspan class="k">3.8 years</tspan></text>
+<text x="28" y="206" textLength="9" lengthAdjust="spacing" xml:space="preserve"><tspan class="c">.</tspan></text>
+<text x="28" y="226" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Cloud: </tspan><tspan class="c">.......................................... </tspan><tspan class="k">Azure, AWS</tspan></text>
+<text x="28" y="246" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. CI/CD: </tspan><tspan class="c">.................. </tspan><tspan class="k">Jenkins, GitHub Actions, GitLab CI</tspan></text>
+<text x="28" y="266" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Containers: </tspan><tspan class="c">....................... </tspan><tspan class="k">Docker, Kubernetes, Helm</tspan></text>
+<text x="28" y="286" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. IaC: </tspan><tspan class="c">............................................. </tspan><tspan class="k">Terraform</tspan></text>
+<text x="28" y="306" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Observability: </tspan><tspan class="c">.................... </tspan><tspan class="k">Prometheus, Grafana, ELK</tspan></text>
+<text x="28" y="326" textLength="9" lengthAdjust="spacing" xml:space="preserve"><tspan class="c">.</tspan></text>
+<text x="28" y="346" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Languages.Programming: </tspan><tspan class="c">........................ </tspan><tspan class="k">Bash, Python</tspan></text>
+<text x="28" y="366" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Languages.Computer: </tspan><tspan class="c">........................ </tspan><tspan class="k">YAML, JSON, HCL</tspan></text>
+<text x="28" y="386" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Languages.Real: </tspan><tspan class="c">............................. </tspan><tspan class="k">English, Hindi</tspan></text>
+<text x="28" y="426" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="c">- Contact ----------------------------------------------------</tspan></text>
+<text x="28" y="446" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Email.Personal: </tspan><tspan class="c">.............. </tspan><tspan class="k">prabhakantshandilya@gmail.com</tspan></text>
+<text x="28" y="466" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. LinkedIn: </tspan><tspan class="c">....................... </tspan><tspan class="k">prabhakant-tiwari-86637476</tspan></text>
+<text x="28" y="486" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. GitHub: </tspan><tspan class="c">.............................................. </tspan><tspan class="k">CXDTM</tspan></text>
+<text x="28" y="526" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="c">- GitHub Stats -----------------------------------------------</tspan></text>
+<text x="28" y="546" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Repos: </tspan><tspan class="c">........................................ </tspan><tspan class="k">2 | Stars: 3</tspan></text>
+<text x="28" y="566" textLength="558" lengthAdjust="spacing" xml:space="preserve"><tspan class="s">. Commits: </tspan><tspan class="c">.................................. </tspan><tspan class="k">5 | Followers: 0</tspan></text>
+<text class="a art" x="622" y="133.0" textLength="288.6" lengthAdjust="spacing" xml:space="preserve">                   :=*#%%%@@%%###*+-.</text>
+<text class="a art" x="622" y="147.0" textLength="312.0" lengthAdjust="spacing" xml:space="preserve">                 +%@%@@@@@@@@@@@@@@@@%*-</text>
+<text class="a art" x="622" y="161.0" textLength="319.8" lengthAdjust="spacing" xml:space="preserve">               .#@@%%@%@@@@@@@@@@@@@@@@@=</text>
+<text class="a art" x="622" y="175.0" textLength="327.6" lengthAdjust="spacing" xml:space="preserve">              -%@@@@@@@@@@@@@@@@@@@@@@@@@+</text>
+<text class="a art" x="622" y="189.0" textLength="335.4" lengthAdjust="spacing" xml:space="preserve">             =@@@@@@%%%#%%%%@@@@@@@@@@@@@@*</text>
+<text class="a art" x="622" y="203.0" textLength="343.2" lengthAdjust="spacing" xml:space="preserve">            +@@@@%*===---=++**##%%@@@@@@@@@*</text>
+<text class="a art" x="622" y="217.0" textLength="343.2" lengthAdjust="spacing" xml:space="preserve">           :@@@@*==:::--::-==+++**#%%@@@@@@%</text>
+<text class="a art" x="622" y="231.0" textLength="343.2" lengthAdjust="spacing" xml:space="preserve">           -@@@#=-:.::::-:--==++**##%%%@@@@#</text>
+<text class="a art" x="622" y="245.0" textLength="343.2" lengthAdjust="spacing" xml:space="preserve">           =@@%=-:::::::----===+**#%%%%@@@@=</text>
+<text class="a art" x="622" y="259.0" textLength="343.2" lengthAdjust="spacing" xml:space="preserve">           =@%*-::.    ..:-::-=-++**##%%@@@:</text>
+<text class="a art" x="622" y="273.0" textLength="335.4" lengthAdjust="spacing" xml:space="preserve">           :@*-=+****+===--:-=+*##%%%%%%%@@</text>
+<text class="a art" x="622" y="287.0" textLength="335.4" lengthAdjust="spacing" xml:space="preserve">            @+-+*#%%@@@@%+:=#%@@@@@@@@@%%@%</text>
+<text class="a art" x="622" y="301.0" textLength="335.4" lengthAdjust="spacing" xml:space="preserve">            %=-+*%+#@@%@#-.+%@@@%@@%@@%%#@+</text>
+<text class="a art" x="622" y="315.0" textLength="343.2" lengthAdjust="spacing" xml:space="preserve">           :+:.-+++*%%%%+:.+#@@@%@@%@@%%#%#=</text>
+<text class="a art" x="622" y="329.0" textLength="343.2" lengthAdjust="spacing" xml:space="preserve">           :--.:-==+**+-:..=#%%%%%%%%#####@+</text>
+<text class="a art" x="622" y="343.0" textLength="335.4" lengthAdjust="spacing" xml:space="preserve">           .==. .:---:...  -*#%####****##%%</text>
+<text class="a art" x="622" y="357.0" textLength="335.4" lengthAdjust="spacing" xml:space="preserve">           .=-.    ...:.-::+###*++++***##%#</text>
+<text class="a art" x="622" y="371.0" textLength="335.4" lengthAdjust="spacing" xml:space="preserve">            .-.    ..-:-++%#%@%#*******#%@-</text>
+<text class="a art" x="622" y="385.0" textLength="327.6" lengthAdjust="spacing" xml:space="preserve">             --. ...-+++++%#%%%%%%#***#%#-</text>
+<text class="a art" x="622" y="399.0" textLength="319.8" lengthAdjust="spacing" xml:space="preserve">              --...:*##*####%@@@%%#####%:</text>
+<text class="a art" x="622" y="413.0" textLength="312.0" lengthAdjust="spacing" xml:space="preserve">               -=::-*=:=+*##%%%%%#####%-</text>
+<text class="a art" x="622" y="427.0" textLength="304.2" lengthAdjust="spacing" xml:space="preserve">               .++===--:-+**#**####%%@+</text>
+<text class="a art" x="622" y="441.0" textLength="312.0" lengthAdjust="spacing" xml:space="preserve">               .==++=::::-==+*##%%%%@@%:</text>
+<text class="a art" x="622" y="455.0" textLength="319.8" lengthAdjust="spacing" xml:space="preserve">              .#=-=++***##%##%%%%@@%%%@@-</text>
+<text class="a art" x="622" y="469.0" textLength="327.6" lengthAdjust="spacing" xml:space="preserve">              -@+----=+##%%@@@@@@%%%%%@%*:</text>
+<text class="a art" x="622" y="483.0" textLength="351.0" lengthAdjust="spacing" xml:space="preserve">              :%%=::---=+*#%%%%%%##%%%@*+:.:.</text>
+<text class="a art" x="622" y="497.0" textLength="390.0" lengthAdjust="spacing" xml:space="preserve">          .    +%%=:----=++**#######%@*.-- ---=:..</text>
+<text class="a art" x="622" y="511.0" textLength="429.0" lengthAdjust="spacing" xml:space="preserve">        ..     .+%@#=--====+******##%#. := .=.+=..-::..</text>
 </svg>

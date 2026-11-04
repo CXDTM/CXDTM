@@ -1,0 +1,323 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1028" height="450" viewBox="0 0 1028 450" role="img">
+<title>Animated DevOps journey: plan, code, commit, build and test, deploy, monitor</title>
+<style>text{font-family:"JetBrains Mono","Fira Code",Consolas,"DejaVu Sans Mono",monospace;font-size:14px;white-space:pre}@keyframes sc0{0.000%{opacity:0}1.250%{opacity:1}15.417%{opacity:1}16.667%{opacity:0}100.000%{opacity:0}}.sc0{animation:sc0 24s linear infinite}@keyframes sc1{0.000%{opacity:0}16.667%{opacity:0}17.917%{opacity:1}32.083%{opacity:1}33.333%{opacity:0}100.000%{opacity:0}}.sc1{animation:sc1 24s linear infinite}@keyframes sc2{0.000%{opacity:0}33.333%{opacity:0}34.583%{opacity:1}48.750%{opacity:1}50.000%{opacity:0}100.000%{opacity:0}}.sc2{animation:sc2 24s linear infinite}@keyframes sc3{0.000%{opacity:0}50.000%{opacity:0}51.250%{opacity:1}65.417%{opacity:1}66.667%{opacity:0}100.000%{opacity:0}}.sc3{animation:sc3 24s linear infinite}@keyframes sc4{0.000%{opacity:0}66.667%{opacity:0}67.917%{opacity:1}82.083%{opacity:1}83.333%{opacity:0}100.000%{opacity:0}}.sc4{animation:sc4 24s linear infinite}@keyframes sc5{0.000%{opacity:0}83.333%{opacity:0}84.583%{opacity:1}98.750%{opacity:1}100.000%{opacity:0}}.sc5{animation:sc5 24s linear infinite}@keyframes xc_{0%,45%{fill:#565f89}50%,95%{fill:#7c7f94}100%{fill:#565f89}}.xc_{fill:#565f89;animation:xc_ 4s infinite}@keyframes xbox_c{0%,45%{fill:#20222f;stroke:#565f89}50%,95%{fill:#ebecf3;stroke:#7c7f94}100%{fill:#20222f;stroke:#565f89}}.xbox_c{fill:#20222f;stroke:#565f89;animation:xbox_c 4s infinite}@keyframes xt_{0%,45%{fill:#c0caf5}50%,95%{fill:#343b58}100%{fill:#c0caf5}}.xt_{fill:#c0caf5;animation:xt_ 4s infinite}@keyframes x_c{0%,45%{stroke:#565f89}50%,95%{stroke:#7c7f94}100%{stroke:#565f89}}.x_c{stroke:#565f89;animation:x_c 4s infinite}@keyframes x_t{0%,45%{stroke:#c0caf5}50%,95%{stroke:#343b58}100%{stroke:#c0caf5}}.x_t{stroke:#c0caf5;animation:x_t 4s infinite}@keyframes tap{0.000%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}16.667%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}16.875%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}17.083%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}17.292%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}17.500%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}17.708%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}17.917%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}18.125%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}18.333%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}18.542%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}18.750%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}18.958%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}19.167%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}19.375%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}19.583%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}19.792%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}20.000%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}20.208%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}20.417%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}20.625%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}20.833%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}21.042%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}21.250%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}21.458%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}21.667%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}21.875%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}22.083%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}22.292%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}22.500%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}22.708%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}22.917%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}23.125%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}23.333%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}23.542%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}23.750%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}23.958%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}24.167%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}24.375%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}24.583%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}24.792%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}25.000%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}25.208%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}25.417%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}25.625%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}25.833%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}26.042%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}26.250%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}26.458%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}26.667%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}26.875%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}27.083%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}27.292%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}27.500%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}27.708%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}27.917%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}28.125%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}28.333%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}28.542%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}28.750%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}28.958%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}29.167%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}29.375%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}29.583%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}29.792%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}30.000%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}30.208%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}30.417%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}30.625%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}30.833%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}31.042%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}31.250%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}31.458%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}31.667%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}31.875%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}32.083%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}32.292%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}32.500%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}32.708%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}32.917%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}33.125%{transform:translate(0px,3px) rotate(0deg) scale(1,1)}33.333%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}100.000%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}}.tap{animation:tap 24s linear infinite}@keyframes xk_{0%,45%{fill:#7dcfff}50%,95%{fill:#0f4b6e}100%{fill:#7dcfff}}.xk_{fill:#7dcfff;animation:xk_ 4s infinite}@keyframes xbg_k{0%,45%{fill:#1a1b26;stroke:#7dcfff}50%,95%{fill:#f5f5f9;stroke:#0f4b6e}100%{fill:#1a1b26;stroke:#7dcfff}}.xbg_k{fill:#1a1b26;stroke:#7dcfff;animation:xbg_k 4s infinite}@keyframes xs_{0%,45%{fill:#ff9e64}50%,95%{fill:#965027}100%{fill:#ff9e64}}.xs_{fill:#ff9e64;animation:xs_ 4s infinite}@keyframes xbg_c{0%,45%{fill:#1a1b26;stroke:#565f89}50%,95%{fill:#f5f5f9;stroke:#7c7f94}100%{fill:#1a1b26;stroke:#565f89}}.xbg_c{fill:#1a1b26;stroke:#565f89;animation:xbg_c 4s infinite}@keyframes xm_{0%,45%{fill:#bb9af7}50%,95%{fill:#5a3e8e}100%{fill:#bb9af7}}.xm_{fill:#bb9af7;animation:xm_ 4s infinite}@keyframes xbg_{0%,45%{fill:#1a1b26}50%,95%{fill:#f5f5f9}100%{fill:#1a1b26}}.xbg_{fill:#1a1b26;animation:xbg_ 4s infinite}@keyframes xp_{0%,45%{fill:#9ece6a}50%,95%{fill:#33635c}100%{fill:#9ece6a}}.xp_{fill:#9ece6a;animation:xp_ 4s infinite}@keyframes note{0.000%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}5.000%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}9.167%{transform:translate(198px,0px) rotate(0deg) scale(1,1)}100.000%{transform:translate(198px,0px) rotate(0deg) scale(1,1)}}.note{animation:note 24s linear infinite}@keyframes ln0{0.000%{opacity:0}18.750%{opacity:0}19.375%{opacity:1}100.000%{opacity:1}}.ln0{animation:ln0 24s linear infinite}@keyframes ln1{0.000%{opacity:0}20.625%{opacity:0}21.250%{opacity:1}100.000%{opacity:1}}.ln1{animation:ln1 24s linear infinite}@keyframes ln2{0.000%{opacity:0}22.500%{opacity:0}23.125%{opacity:1}100.000%{opacity:1}}.ln2{animation:ln2 24s linear infinite}@keyframes ln3{0.000%{opacity:0}24.375%{opacity:0}25.000%{opacity:1}100.000%{opacity:1}}.ln3{animation:ln3 24s linear infinite}@keyframes ln4{0.000%{opacity:0}26.250%{opacity:0}26.875%{opacity:1}100.000%{opacity:1}}.ln4{animation:ln4 24s linear infinite}@keyframes ln5{0.000%{opacity:0}28.125%{opacity:0}28.750%{opacity:1}100.000%{opacity:1}}.ln5{animation:ln5 24s linear infinite}@keyframes ln6{0.000%{opacity:0}30.000%{opacity:0}30.625%{opacity:1}100.000%{opacity:1}}.ln6{animation:ln6 24s linear infinite}@keyframes cur2{0.000%{opacity:0}18.333%{opacity:0}18.750%{opacity:1}19.583%{opacity:0}20.417%{opacity:1}21.250%{opacity:0}22.083%{opacity:1}22.917%{opacity:0}23.750%{opacity:1}24.583%{opacity:0}25.417%{opacity:1}26.250%{opacity:0}27.083%{opacity:1}29.583%{opacity:1}30.417%{opacity:0}100.000%{opacity:0}}.cur2{animation:cur2 24s linear infinite}@keyframes xbg_m{0%,45%{fill:#1a1b26;stroke:#bb9af7}50%,95%{fill:#f5f5f9;stroke:#5a3e8e}100%{fill:#1a1b26;stroke:#bb9af7}}.xbg_m{fill:#1a1b26;stroke:#bb9af7;animation:xbg_m 4s infinite}@keyframes cm0{0.000%{opacity:0}35.000%{opacity:0}35.625%{opacity:1}100.000%{opacity:1}}.cm0{animation:cm0 24s linear infinite}@keyframes cm1{0.000%{opacity:0}36.458%{opacity:0}37.083%{opacity:1}100.000%{opacity:1}}.cm1{animation:cm1 24s linear infinite}@keyframes cm2{0.000%{opacity:0}37.917%{opacity:0}38.542%{opacity:1}100.000%{opacity:1}}.cm2{animation:cm2 24s linear infinite}@keyframes pk{0.000%{opacity:0;transform:translate(0px,0px) rotate(0deg) scale(1,1)}39.583%{opacity:0;transform:translate(0px,0px) rotate(0deg) scale(1,1)}40.000%{opacity:1;transform:translate(0px,0px) rotate(0deg) scale(1,1)}44.583%{opacity:1;transform:translate(206px,0px) rotate(0deg) scale(1,1)}45.000%{opacity:0;transform:translate(206px,0px) rotate(0deg) scale(1,1)}100.000%{opacity:0;transform:translate(206px,0px) rotate(0deg) scale(1,1)}}.pk{animation:pk 24s linear infinite}@keyframes arr{0.000%{opacity:0}45.000%{opacity:0}45.625%{opacity:1}100.000%{opacity:1}}.arr{animation:arr 24s linear infinite}@keyframes bar0{0.000%{transform:translate(0px,0px) rotate(0deg) scale(0,1)}52.083%{transform:translate(0px,0px) rotate(0deg) scale(0,1)}55.833%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}100.000%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}}.bar0{animation:bar0 24s linear infinite;transform-box:fill-box;transform-origin:left center}@keyframes ok0{0.000%{opacity:0}55.833%{opacity:0}56.458%{opacity:1}100.000%{opacity:1}}.ok0{animation:ok0 24s linear infinite}@keyframes bar1{0.000%{transform:translate(0px,0px) rotate(0deg) scale(0,1)}56.250%{transform:translate(0px,0px) rotate(0deg) scale(0,1)}60.000%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}100.000%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}}.bar1{animation:bar1 24s linear infinite;transform-box:fill-box;transform-origin:left center}@keyframes ok1{0.000%{opacity:0}60.000%{opacity:0}60.625%{opacity:1}100.000%{opacity:1}}.ok1{animation:ok1 24s linear infinite}@keyframes bar2{0.000%{transform:translate(0px,0px) rotate(0deg) scale(0,1)}60.417%{transform:translate(0px,0px) rotate(0deg) scale(0,1)}64.167%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}100.000%{transform:translate(0px,0px) rotate(0deg) scale(1,1)}}.bar2{animation:bar2 24s linear infinite;transform-box:fill-box;transform-origin:left center}@keyframes ok2{0.000%{opacity:0}64.167%{opacity:0}64.792%{opacity:1}100.000%{opacity:1}}.ok2{animation:ok2 24s linear infinite}@keyframes img{0.000%{opacity:1;transform:translate(0px,0px) rotate(0deg) scale(1,1)}69.167%{opacity:1;transform:translate(0px,0px) rotate(0deg) scale(1,1)}73.333%{opacity:1;transform:translate(170px,0px) rotate(0deg) scale(1,1)}73.750%{opacity:0;transform:translate(170px,0px) rotate(0deg) scale(1,1)}100.000%{opacity:0;transform:translate(170px,0px) rotate(0deg) scale(1,1)}}.img{animation:img 24s linear infinite}@keyframes pod0{0.000%{opacity:0;transform:translate(0px,0px) rotate(0deg) scale(0,0)}74.167%{opacity:0;transform:translate(0px,0px) rotate(0deg) scale(0,0)}75.417%{opacity:1;transform:translate(0px,0px) rotate(0deg) scale(1,1)}100.000%{opacity:1;transform:translate(0px,0px) rotate(0deg) scale(1,1)}}.pod0{animation:pod0 24s linear infinite;transform-box:fill-box;transform-origin:center}@keyframes pod1{0.000%{opacity:0;transform:translate(0px,0px) rotate(0deg) scale(0,0)}75.833%{opacity:0;transform:translate(0px,0px) rotate(0deg) scale(0,0)}77.083%{opacity:1;transform:translate(0px,0px) rotate(0deg) scale(1,1)}100.000%{opacity:1;transform:translate(0px,0px) rotate(0deg) scale(1,1)}}.pod1{animation:pod1 24s linear infinite;transform-box:fill-box;transform-origin:center}@keyframes pod2{0.000%{opacity:0;transform:translate(0px,0px) rotate(0deg) scale(0,0)}77.500%{opacity:0;transform:translate(0px,0px) rotate(0deg) scale(0,0)}78.750%{opacity:1;transform:translate(0px,0px) rotate(0deg) scale(1,1)}100.000%{opacity:1;transform:translate(0px,0px) rotate(0deg) scale(1,1)}}.pod2{animation:pod2 24s linear infinite;transform-box:fill-box;transform-origin:center}@keyframes ro{0.000%{opacity:0}80.000%{opacity:0}80.625%{opacity:1}100.000%{opacity:1}}.ro{animation:ro 24s linear infinite}@keyframes sg0{0.000%{opacity:0}84.583%{opacity:0}85.208%{opacity:1}100.000%{opacity:1}}.sg0{animation:sg0 24s linear infinite}@keyframes x_k{0%,45%{stroke:#7dcfff}50%,95%{stroke:#0f4b6e}100%{stroke:#7dcfff}}.x_k{stroke:#7dcfff;animation:x_k 4s infinite}@keyframes sg1{0.000%{opacity:0}85.500%{opacity:0}86.125%{opacity:1}100.000%{opacity:1}}.sg1{animation:sg1 24s linear infinite}@keyframes sg2{0.000%{opacity:0}86.417%{opacity:0}87.042%{opacity:1}100.000%{opacity:1}}.sg2{animation:sg2 24s linear infinite}@keyframes sg3{0.000%{opacity:0}87.333%{opacity:0}87.958%{opacity:1}100.000%{opacity:1}}.sg3{animation:sg3 24s linear infinite}@keyframes sg4{0.000%{opacity:0}88.250%{opacity:0}88.875%{opacity:1}100.000%{opacity:1}}.sg4{animation:sg4 24s linear infinite}@keyframes sg5{0.000%{opacity:0}89.167%{opacity:0}89.792%{opacity:1}100.000%{opacity:1}}.sg5{animation:sg5 24s linear infinite}@keyframes x_r{0%,45%{stroke:#f7768e}50%,95%{stroke:#a8334c}100%{stroke:#f7768e}}.x_r{stroke:#f7768e;animation:x_r 4s infinite}@keyframes sg6{0.000%{opacity:0}90.083%{opacity:0}90.708%{opacity:1}100.000%{opacity:1}}.sg6{animation:sg6 24s linear infinite}@keyframes sg7{0.000%{opacity:0}91.000%{opacity:0}91.625%{opacity:1}100.000%{opacity:1}}.sg7{animation:sg7 24s linear infinite}@keyframes sg8{0.000%{opacity:0}91.917%{opacity:0}92.542%{opacity:1}100.000%{opacity:1}}.sg8{animation:sg8 24s linear infinite}@keyframes x_p{0%,45%{stroke:#9ece6a}50%,95%{stroke:#33635c}100%{stroke:#9ece6a}}.x_p{stroke:#9ece6a;animation:x_p 4s infinite}@keyframes sg9{0.000%{opacity:0}92.833%{opacity:0}93.458%{opacity:1}100.000%{opacity:1}}.sg9{animation:sg9 24s linear infinite}@keyframes sg10{0.000%{opacity:0}93.750%{opacity:0}94.375%{opacity:1}100.000%{opacity:1}}.sg10{animation:sg10 24s linear infinite}@keyframes sg11{0.000%{opacity:0}94.667%{opacity:0}95.292%{opacity:1}100.000%{opacity:1}}.sg11{animation:sg11 24s linear infinite}@keyframes alert{0.000%{opacity:0}89.167%{opacity:0}89.583%{opacity:1}91.250%{opacity:0.3}92.917%{opacity:1}94.583%{opacity:0.3}95.833%{opacity:1}96.250%{opacity:0}100.000%{opacity:0}}.alert{animation:alert 24s linear infinite}@keyframes xr_{0%,45%{fill:#f7768e}50%,95%{fill:#a8334c}100%{fill:#f7768e}}.xr_{fill:#f7768e;animation:xr_ 4s infinite}@keyframes fixd{0.000%{opacity:0}96.250%{opacity:0}96.875%{opacity:1}100.000%{opacity:1}}.fixd{animation:fixd 24s linear infinite}@keyframes prog{0.000%{opacity:1;transform:translate(0px,0px) rotate(0deg) scale(0,1)}83.333%{opacity:1;transform:translate(0px,0px) rotate(0deg) scale(1,1)}97.500%{opacity:1;transform:translate(0px,0px) rotate(0deg) scale(1,1)}99.167%{opacity:0;transform:translate(0px,0px) rotate(0deg) scale(1,1)}100.000%{opacity:0;transform:translate(0px,0px) rotate(0deg) scale(0,1)}}.prog{animation:prog 24s linear infinite;transform-box:fill-box;transform-origin:left center}@keyframes done0{0.000%{opacity:0}2.500%{opacity:0}3.333%{opacity:1}99.167%{opacity:1}100.000%{opacity:0}}.done0{animation:done0 24s linear infinite}@keyframes done1{0.000%{opacity:0}19.167%{opacity:0}20.000%{opacity:1}99.167%{opacity:1}100.000%{opacity:0}}.done1{animation:done1 24s linear infinite}@keyframes done2{0.000%{opacity:0}35.833%{opacity:0}36.667%{opacity:1}99.167%{opacity:1}100.000%{opacity:0}}.done2{animation:done2 24s linear infinite}@keyframes done3{0.000%{opacity:0}52.500%{opacity:0}53.333%{opacity:1}99.167%{opacity:1}100.000%{opacity:0}}.done3{animation:done3 24s linear infinite}@keyframes done4{0.000%{opacity:0}69.167%{opacity:0}70.000%{opacity:1}99.167%{opacity:1}100.000%{opacity:0}}.done4{animation:done4 24s linear infinite}@keyframes done5{0.000%{opacity:0}85.833%{opacity:0}86.667%{opacity:1}99.167%{opacity:1}100.000%{opacity:0}}.done5{animation:done5 24s linear infinite}</style>
+<rect class="xbg_" width="1028" height="450" rx="14"/>
+<text x="24" y="32" class="xc_" style="font-size:13px" xml:space="preserve">a day in devops</text>
+<text x="24" y="436" class="xc_" style="font-size:11px" xml:space="preserve">illustrative</text>
+<rect x="36" y="62" width="300" height="70" rx="14" class="xbox_c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="118" cy="144" r="6" class="xbox_c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="108" cy="158" r="4" class="xbox_c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="sc0">
+<text x="186" y="94" class="xt_" style="font-size:14px" font-weight="700" text-anchor="middle" xml:space="preserve">Pick a ticket</text>
+<text x="186" y="116" class="xc_" style="font-size:13px" text-anchor="middle" xml:space="preserve">from the board</text>
+</g>
+<g class="sc1">
+<text x="186" y="94" class="xt_" style="font-size:14px" font-weight="700" text-anchor="middle" xml:space="preserve">Write the change</text>
+<text x="186" y="116" class="xc_" style="font-size:13px" text-anchor="middle" xml:space="preserve">and a pipeline file</text>
+</g>
+<g class="sc2">
+<text x="186" y="94" class="xt_" style="font-size:14px" font-weight="700" text-anchor="middle" xml:space="preserve">git commit</text>
+<text x="186" y="116" class="xc_" style="font-size:13px" text-anchor="middle" xml:space="preserve">git push to GitHub</text>
+</g>
+<g class="sc3">
+<text x="186" y="94" class="xt_" style="font-size:14px" font-weight="700" text-anchor="middle" xml:space="preserve">Pipeline builds,</text>
+<text x="186" y="116" class="xc_" style="font-size:13px" text-anchor="middle" xml:space="preserve">tests and scans</text>
+</g>
+<g class="sc4">
+<text x="186" y="94" class="xt_" style="font-size:14px" font-weight="700" text-anchor="middle" xml:space="preserve">Roll out to</text>
+<text x="186" y="116" class="xc_" style="font-size:13px" text-anchor="middle" xml:space="preserve">Kubernetes</text>
+</g>
+<g class="sc5">
+<text x="186" y="94" class="xt_" style="font-size:14px" font-weight="700" text-anchor="middle" xml:space="preserve">Watch dashboards</text>
+<text x="186" y="116" class="xc_" style="font-size:13px" text-anchor="middle" xml:space="preserve">and handle alerts</text>
+</g>
+<line x1="80" y1="308" x2="80" y2="262" class="x_c" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="78" y="306" width="54" height="6" rx="3" class="xc_"/>
+<line x1="106" y1="312" x2="106" y2="356" class="x_c" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="86" y1="358" x2="126" y2="358" class="x_c" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="172" y="320" width="172" height="8" rx="3" class="xc_"/>
+<line x1="182" y1="328" x2="182" y2="360" class="x_c" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="334" y1="328" x2="334" y2="360" class="x_c" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="104" cy="224" r="20" class="x_t" fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="104" y1="244" x2="104" y2="304" class="x_t" fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="104" y1="304" x2="152" y2="304" class="x_t" fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="152" y1="304" x2="152" y2="354" class="x_t" fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="152" y1="354" x2="170" y2="354" class="x_t" fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="104" y1="254" x2="140" y2="284" class="x_t" fill="none" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="tap">
+<line x1="140" y1="284" x2="196" y2="306" class="x_t" fill="none" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="190" y="312" width="112" height="8" rx="3" class="xk_"/>
+<rect x="204" y="232" width="86" height="80" rx="5" class="xbg_k" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="sc0">
+<text x="247" y="268" class="xk_" style="font-size:10px" text-anchor="middle" xml:space="preserve">board</text>
+<text x="247" y="286" class="xs_" style="font-size:10px" text-anchor="middle" xml:space="preserve">3 tickets</text>
+</g>
+<g class="sc1">
+<text x="247" y="268" class="xk_" style="font-size:10px" text-anchor="middle" xml:space="preserve">pipeline.yml</text>
+<text x="247" y="286" class="xs_" style="font-size:10px" text-anchor="middle" xml:space="preserve">+ stage: test</text>
+</g>
+<g class="sc2">
+<text x="247" y="268" class="xk_" style="font-size:10px" text-anchor="middle" xml:space="preserve">$ git push</text>
+<text x="247" y="286" class="xs_" style="font-size:10px" text-anchor="middle" xml:space="preserve">origin feature</text>
+</g>
+<g class="sc3">
+<text x="247" y="268" class="xk_" style="font-size:10px" text-anchor="middle" xml:space="preserve">pipeline #142</text>
+<text x="247" y="286" class="xs_" style="font-size:10px" text-anchor="middle" xml:space="preserve">running…</text>
+</g>
+<g class="sc4">
+<text x="247" y="268" class="xk_" style="font-size:10px" text-anchor="middle" xml:space="preserve">kubectl apply</text>
+<text x="247" y="286" class="xs_" style="font-size:10px" text-anchor="middle" xml:space="preserve">rollout ok</text>
+</g>
+<g class="sc5">
+<text x="247" y="268" class="xk_" style="font-size:10px" text-anchor="middle" xml:space="preserve">grafana</text>
+<text x="247" y="286" class="xs_" style="font-size:10px" text-anchor="middle" xml:space="preserve">all green</text>
+</g>
+<rect x="372" y="56" width="622" height="292" rx="12" class="xbox_c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="sc0">
+<text x="392" y="86" class="xs_" style="font-size:14px" font-weight="700" xml:space="preserve">01 · PLAN</text>
+</g>
+<g class="sc1">
+<text x="392" y="86" class="xs_" style="font-size:14px" font-weight="700" xml:space="preserve">02 · CODE</text>
+</g>
+<g class="sc2">
+<text x="392" y="86" class="xs_" style="font-size:14px" font-weight="700" xml:space="preserve">03 · COMMIT</text>
+</g>
+<g class="sc3">
+<text x="392" y="86" class="xs_" style="font-size:14px" font-weight="700" xml:space="preserve">04 · BUILD+TEST</text>
+</g>
+<g class="sc4">
+<text x="392" y="86" class="xs_" style="font-size:14px" font-weight="700" xml:space="preserve">05 · DEPLOY</text>
+</g>
+<g class="sc5">
+<text x="392" y="86" class="xs_" style="font-size:14px" font-weight="700" xml:space="preserve">06 · MONITOR</text>
+</g>
+<g class="sc0">
+<rect x="396" y="104" width="182" height="226" rx="8" class="xbg_c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="408" y="124" class="xc_" style="font-size:12px" font-weight="700" xml:space="preserve">TODO</text>
+<rect x="594" y="104" width="182" height="226" rx="8" class="xbg_c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="606" y="124" class="xc_" style="font-size:12px" font-weight="700" xml:space="preserve">DOING</text>
+<rect x="792" y="104" width="182" height="226" rx="8" class="xbg_c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="804" y="124" class="xc_" style="font-size:12px" font-weight="700" xml:space="preserve">DONE</text>
+<rect x="408" y="190" width="158" height="34" rx="6" class="xm_"/>
+<text x="487" y="212" class="xbg_" style="font-size:12px" text-anchor="middle" xml:space="preserve">update docs</text>
+<rect x="804" y="138" width="158" height="34" rx="6" class="xp_"/>
+<text x="883" y="160" class="xbg_" style="font-size:12px" text-anchor="middle" xml:space="preserve">fix flaky test</text>
+<g class="note">
+<rect x="408" y="138" width="158" height="34" rx="6" class="xk_"/>
+<text x="487" y="160" class="xbg_" style="font-size:12px" text-anchor="middle" xml:space="preserve">add CI stage</text>
+</g>
+</g>
+<g class="sc1">
+<rect x="396" y="104" width="572" height="226" rx="8" class="xbg_c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="414" y="126" class="xc_" style="font-size:12px" xml:space="preserve">pipeline.yml</text>
+<g class="ln0">
+<text x="416" y="160" class="xk_" style="font-size:15px" xml:space="preserve">stages:</text>
+</g>
+<g class="ln1">
+<text x="416" y="184" class="xt_" style="font-size:15px" xml:space="preserve">  - build</text>
+</g>
+<g class="ln2">
+<text x="416" y="208" class="xt_" style="font-size:15px" xml:space="preserve">  - test</text>
+</g>
+<g class="ln3">
+<text x="416" y="232" class="xt_" style="font-size:15px" xml:space="preserve">  - scan</text>
+</g>
+<g class="ln4">
+<text x="416" y="256" class="xt_" style="font-size:15px" xml:space="preserve">  - deploy</text>
+</g>
+<g class="ln5">
+<text x="416" y="280" class="xs_" style="font-size:15px" xml:space="preserve">trigger: push to main</text>
+</g>
+<g class="ln6">
+<text x="416" y="304" class="xp_" style="font-size:15px" xml:space="preserve">✔ saved</text>
+</g>
+<g class="cur2">
+<rect x="540" y="148" width="9" height="16" rx="0" class="xp_"/>
+</g>
+</g>
+<g class="sc2">
+<rect x="412" y="160" width="152" height="120" rx="10" class="xbg_k" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="488" y="184" class="xc_" style="font-size:12px" text-anchor="middle" xml:space="preserve">local</text>
+<rect x="790" y="160" width="152" height="120" rx="10" class="xbg_m" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="866" y="184" class="xc_" style="font-size:12px" text-anchor="middle" xml:space="preserve">origin/main</text>
+<line x1="438" y1="232" x2="538" y2="232" class="x_c" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="cm0">
+<circle cx="438" cy="232" r="8" class="xk_"/>
+</g>
+<g class="cm1">
+<circle cx="488" cy="232" r="8" class="xk_"/>
+</g>
+<g class="cm2">
+<circle cx="538" cy="232" r="8" class="xk_"/>
+</g>
+<text x="488" y="268" class="xs_" style="font-size:12px" text-anchor="middle" xml:space="preserve">feature/ci</text>
+<line x1="570" y1="232" x2="784" y2="232" class="x_c" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="677" y="214" class="xc_" style="font-size:12px" text-anchor="middle" xml:space="preserve">git push</text>
+<g class="pk">
+<circle cx="578" cy="232" r="9" class="xm_"/>
+</g>
+<g class="arr">
+<circle cx="866" cy="232" r="8" class="xm_"/>
+<text x="866" y="262" class="xp_" style="font-size:12px" text-anchor="middle" xml:space="preserve">✔ PR merged</text>
+</g>
+</g>
+<g class="sc3">
+<text x="396" y="122" class="xc_" style="font-size:12px" xml:space="preserve">pipeline #142</text>
+<text x="396" y="174" class="xt_" style="font-size:15px" font-weight="700" xml:space="preserve">BUILD</text>
+<rect x="520" y="156" width="360" height="20" rx="10" class="xbg_c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="bar0">
+<rect x="520" y="156" width="360" height="20" rx="10" class="xk_"/>
+</g>
+<g class="ok0">
+<text x="900" y="174" class="xp_" style="font-size:13px" font-weight="700" xml:space="preserve">✔ passed</text>
+</g>
+<text x="396" y="236" class="xt_" style="font-size:15px" font-weight="700" xml:space="preserve">TEST</text>
+<rect x="520" y="218" width="360" height="20" rx="10" class="xbg_c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="bar1">
+<rect x="520" y="218" width="360" height="20" rx="10" class="xk_"/>
+</g>
+<g class="ok1">
+<text x="900" y="236" class="xp_" style="font-size:13px" font-weight="700" xml:space="preserve">✔ passed</text>
+</g>
+<text x="396" y="298" class="xt_" style="font-size:15px" font-weight="700" xml:space="preserve">SCAN</text>
+<rect x="520" y="280" width="360" height="20" rx="10" class="xbg_c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="bar2">
+<rect x="520" y="280" width="360" height="20" rx="10" class="xk_"/>
+</g>
+<g class="ok2">
+<text x="900" y="298" class="xp_" style="font-size:13px" font-weight="700" xml:space="preserve">✔ passed</text>
+</g>
+</g>
+<g class="sc4">
+<rect x="420" y="170" width="116" height="90" rx="10" class="xbg_m" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="478" y="222" class="xm_" style="font-size:14px" font-weight="700" text-anchor="middle" xml:space="preserve">app:142</text>
+<text x="478" y="192" class="xc_" style="font-size:12px" text-anchor="middle" xml:space="preserve">image</text>
+<rect x="640" y="120" width="318" height="200" rx="14" class="xbg_k" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="799" y="146" class="xk_" style="font-size:12px" text-anchor="middle" xml:space="preserve">kubernetes cluster</text>
+<g class="img">
+<rect x="420" y="170" width="116" height="90" rx="10" class="xm_"/>
+<text x="478" y="222" class="xbg_" style="font-size:14px" font-weight="700" text-anchor="middle" xml:space="preserve">app:142</text>
+</g>
+<g class="pod0">
+<rect x="676" y="184" width="60" height="60" rx="10" class="xm_"/>
+<text x="706" y="220" class="xbg_" style="font-size:13px" font-weight="700" text-anchor="middle" xml:space="preserve">pod</text>
+</g>
+<g class="pod1">
+<rect x="768" y="184" width="60" height="60" rx="10" class="xm_"/>
+<text x="798" y="220" class="xbg_" style="font-size:13px" font-weight="700" text-anchor="middle" xml:space="preserve">pod</text>
+</g>
+<g class="pod2">
+<rect x="860" y="184" width="60" height="60" rx="10" class="xm_"/>
+<text x="890" y="220" class="xbg_" style="font-size:13px" font-weight="700" text-anchor="middle" xml:space="preserve">pod</text>
+</g>
+<text x="799" y="276" class="xc_" style="font-size:12px" text-anchor="middle" xml:space="preserve">replicas: 3</text>
+<g class="ro">
+<text x="799" y="304" class="xp_" style="font-size:13px" font-weight="700" text-anchor="middle" xml:space="preserve">✔ rollout complete</text>
+</g>
+</g>
+<g class="sc5">
+<rect x="396" y="104" width="572" height="226" rx="8" class="xbg_c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="412" y1="170" x2="952" y2="170" class="x_c" fill="none" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="412" y1="220" x2="952" y2="220" class="x_c" fill="none" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="412" y1="270" x2="952" y2="270" class="x_c" fill="none" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="414" y="126" class="xc_" style="font-size:12px" xml:space="preserve">response time</text>
+<g class="sg0">
+<line x1="416" y1="262" x2="460" y2="254" class="x_k" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sg1">
+<line x1="460" y1="254" x2="504" y2="264" class="x_k" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sg2">
+<line x1="504" y1="264" x2="548" y2="256" class="x_k" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sg3">
+<line x1="548" y1="256" x2="592" y2="260" class="x_k" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sg4">
+<line x1="592" y1="260" x2="636" y2="254" class="x_k" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sg5">
+<line x1="636" y1="254" x2="680" y2="214" class="x_r" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sg6">
+<line x1="680" y1="214" x2="724" y2="150" class="x_r" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sg7">
+<line x1="724" y1="150" x2="768" y2="226" class="x_r" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sg8">
+<line x1="768" y1="226" x2="812" y2="258" class="x_p" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sg9">
+<line x1="812" y1="258" x2="856" y2="252" class="x_p" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sg10">
+<line x1="856" y1="252" x2="900" y2="260" class="x_p" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sg11">
+<line x1="900" y1="260" x2="944" y2="254" class="x_p" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="alert">
+<rect x="640" y="112" width="112" height="26" rx="6" class="xr_"/>
+<text x="696" y="130" class="xbg_" style="font-size:13px" font-weight="700" text-anchor="middle" xml:space="preserve">ALERT</text>
+</g>
+<g class="fixd">
+<rect x="640" y="112" width="150" height="26" rx="6" class="xp_"/>
+<text x="715" y="130" class="xbg_" style="font-size:12px" font-weight="700" text-anchor="middle" xml:space="preserve">✔ fixed, redeployed</text>
+</g>
+<text x="682" y="316" class="xc_" style="font-size:12px" text-anchor="middle" xml:space="preserve">alert → fix → redeploy → plan the next one ↻</text>
+</g>
+<line x1="420" y1="392" x2="980" y2="392" class="x_c" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="prog">
+<line x1="420" y1="392" x2="980" y2="392" class="x_k" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="420" cy="392" r="8" class="xbg_c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="done0">
+<circle cx="420" cy="392" r="8" class="xp_"/>
+</g>
+<g class="sc0">
+<circle cx="420" cy="392" r="13" class="x_k" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="420" y="424" class="xc_" style="font-size:11px" text-anchor="middle" xml:space="preserve">PLAN</text>
+<circle cx="532" cy="392" r="8" class="xbg_c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="done1">
+<circle cx="532" cy="392" r="8" class="xp_"/>
+</g>
+<g class="sc1">
+<circle cx="532" cy="392" r="13" class="x_k" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="532" y="424" class="xc_" style="font-size:11px" text-anchor="middle" xml:space="preserve">CODE</text>
+<circle cx="644" cy="392" r="8" class="xbg_c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="done2">
+<circle cx="644" cy="392" r="8" class="xp_"/>
+</g>
+<g class="sc2">
+<circle cx="644" cy="392" r="13" class="x_k" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="644" y="424" class="xc_" style="font-size:11px" text-anchor="middle" xml:space="preserve">COMMIT</text>
+<circle cx="756" cy="392" r="8" class="xbg_c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="done3">
+<circle cx="756" cy="392" r="8" class="xp_"/>
+</g>
+<g class="sc3">
+<circle cx="756" cy="392" r="13" class="x_k" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="756" y="424" class="xc_" style="font-size:11px" text-anchor="middle" xml:space="preserve">BUILD+TEST</text>
+<circle cx="868" cy="392" r="8" class="xbg_c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="done4">
+<circle cx="868" cy="392" r="8" class="xp_"/>
+</g>
+<g class="sc4">
+<circle cx="868" cy="392" r="13" class="x_k" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="868" y="424" class="xc_" style="font-size:11px" text-anchor="middle" xml:space="preserve">DEPLOY</text>
+<circle cx="980" cy="392" r="8" class="xbg_c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="done5">
+<circle cx="980" cy="392" r="8" class="xp_"/>
+</g>
+<g class="sc5">
+<circle cx="980" cy="392" r="13" class="x_k" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="980" y="424" class="xc_" style="font-size:11px" text-anchor="middle" xml:space="preserve">MONITOR</text>
+</svg>
