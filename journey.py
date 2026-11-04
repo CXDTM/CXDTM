@@ -1,7 +1,7 @@
 """Builds ../journey.svg: a day in the life of a DevOps engineer (plan -> code -> commit -> build+test -> deploy -> monitor), in 3D.
 Everything is drawn as extruded boxes (svgkit's d.cuboid) on a floor, so it reads as a small 3D scene.
 Edit the SCENES text below, then run:  python tools/journey.py   (illustrative, not live data)"""
-import os, sys
+import os, sys, math
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from svgkit import Doc
 
@@ -18,10 +18,16 @@ SCENES = [  # (step label, thought line 1, thought line 2, laptop line 1, laptop
 d = Doc(W, H, T, title="Animated 3D DevOps journey: plan, code, commit, build and test, deploy, monitor")
 sc = [d.show(f"sc{i}", i * SEG, (i + 1) * SEG, 0.3) for i in range(6)]
 
+def sway(name, sk, tx, ph, c):      # slow camera orbit: skew + slide, seamless over the 24 s loop
+    pts = [(t, dict(sky=sk * math.sin(2 * math.pi * t / 12 + ph), tx=tx * math.sin(2 * math.pi * t / 12 + ph + 1.1))) for t in [i * 1.5 for i in range(17)]]
+    return d.anim(name, pts, org=("center", c))
+camL, camR = sway("camL", 1.3, 3, math.pi, (190, 230)), sway("camR", 1.7, 5, 0, (683, 202))
+
 d.text(24, 32, "a day in devops · 3D", fill="c", size=13)
 d.text(24, H - 14, "illustrative", fill="c", size=11)
 
 # ---------------- floor under the desk ----------------
+_cl = d.g(camL); _cl.__enter__()
 d.poly([(44, 362), (366, 362), (398, 400), (10, 400)], fill="bar")
 
 # ---------------- person + desk (left) ----------------
@@ -51,7 +57,9 @@ for i, s in enumerate(SCENES):
         d.text(247, 268, s[3], fill="k", size=10, anchor="middle")
         d.text(247, 286, s[4], fill="s", size=10, anchor="middle")
 
+_cl.__exit__(None, None, None)
 # ---------------- right panel (a thick slab) ----------------
+_cr = d.g(camR); _cr.__enter__()
 d.cuboid(372, 56, 622, 292, dep=16, fill="box", stroke="c", sw=1.5)
 for i, s in enumerate(SCENES):
     with d.g(sc[i]):
@@ -147,6 +155,7 @@ with d.g(sc[5]):
     with d.g(d.appear("fixd", step(5, 3.1))): d.cuboid(640, 112, 150, 26, dep=6, fill="p"); d.text(715, 130, "✔ fixed, redeployed", fill="bg", size=12, bold=True, anchor="middle")
     d.text(682, 316, "alert → fix → redeploy → plan the next one ↻", fill="c", size=12, anchor="middle")
 
+_cr.__exit__(None, None, None)
 # ---------------- stepper ----------------
 X = [420 + i * 112 for i in range(6)]
 d.line(X[0], 392, X[-1], 392, stroke="c", sw=2)
