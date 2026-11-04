@@ -12,6 +12,8 @@ EXP_START  = date(2023, 1, 15)   # DevOps career start (about 3.8 years as of No
 HEADER     = "prabhakant@tiwari"
 EMAIL      = "your-email@gmail.com"
 LINKEDIN   = "your-linkedin-id"
+USE_AVATAR = True    # True = ASCII art follows your GitHub profile picture; False = keep art.txt as it is
+SWITCH_SECONDS = 2      # dark <-> light every N seconds
 FALLBACK   = dict(repos=2, stars=3, followers=0, commits=5)   # used if the GitHub API fails
 # ===========================================
 
@@ -31,8 +33,8 @@ def plural(n, w):
 today = date.today()
 ay, am, ad = diff(DOB, today)
 ey, em, _ = diff(EXP_START, today)
-AGE = f"{plural(ay,'year')}, {plural(am,'month')}, {plural(ad,'day')}"
-EXP = f"{plural(ey,'year')}, {plural(em,'month')}"
+AGE = f"{ay}y {am}m {ad}d"
+EXP = f"{ey}y {em}m"
 
 # ---------- GitHub stats ----------
 def api(path):
@@ -55,92 +57,151 @@ try:
 except Exception as e:
     print("GitHub API failed, using fallback stats:", e)
 
-# ---------- layout ----------
-RW = 60
-def kv(key, val):
-    ks = key + ": "
-    return [("k", ". " + ks), ("d", "." * max(RW - len(ks) - len(val) - 2, 2) + " "), ("v", val)]
-def header(t):
-    t = f"- {t} "
-    return [("d", t + "-" * (RW - len(t)))]
+# ---------- ASCII art from the GitHub profile picture ----------
+ART_COLS = 46
+ART_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "art.txt")
 
-right = [
-    header(HEADER),
-    kv("OS", "Linux (Ubuntu, RHEL), Windows"),
-    kv("Uptime", AGE),
-    kv("Role", "DevOps Engineer"),
-    kv("Experience", EXP),
-    kv("Cloud", "AWS, Azure"),
-    kv("CI/CD", "Jenkins, GitHub Actions, GitLab CI"),
-    kv("Containers", "Docker, Kubernetes, Helm"),
-    kv("IaC", "Terraform, Ansible"),
-    kv("Monitoring", "Prometheus, Grafana, ELK"),
-    [("d", ".")],
-    kv("Languages.Programming", "Bash, Python, Groovy"),
-    kv("Languages.Computer", "YAML, JSON, HCL, Dockerfile"),
-    kv("Languages.Real", "English, Hindi"),
-    [("d", ".")],
-    kv("Hobbies.Software", "Automation, Open Source"),
-    kv("Hobbies.Hardware", "Home Lab"),
+def make_art(img):
+    from PIL import Image, ImageOps, ImageFilter
+    img = img.convert("L")
+    w, h = img.size
+    side = min(w, h)
+    img = img.crop(((w - side) // 2, (h - side) // 2, (w + side) // 2, (h + side) // 2))
+    rows = ART_COLS // 2
+    bg = img.point(lambda v: 255 if v > 238 else 0)
+    img = ImageOps.equalize(img, mask=ImageOps.invert(bg))
+    img = img.filter(ImageFilter.UnsharpMask(radius=2, percent=150, threshold=2))
+    small = img.resize((ART_COLS, rows), Image.LANCZOS)
+    bgs = bg.resize((ART_COLS, rows), Image.BOX)
+    ramp = "@%#*+=-:. "
+    out = []
+    for y in range(rows):
+        line = ""
+        for x in range(ART_COLS):
+            dx = (x + 0.5 - ART_COLS / 2) / (ART_COLS / 2)
+            dy = (y + 0.5 - rows / 2) / (rows / 2)
+            if dx * dx + dy * dy > 1 or bgs.getpixel((x, y)) > 200:
+                line += " "
+            else:
+                line += ramp[min(int(small.getpixel((x, y)) / 256 * len(ramp)), len(ramp) - 1)]
+        out.append(line.rstrip())
+    return out
+
+art = None
+try:
+    if not USE_AVATAR:
+        raise RuntimeError("USE_AVATAR is off")
+    from io import BytesIO
+    from PIL import Image
+    if os.environ.get("AVATAR_FILE"):                       # local testing
+        im = Image.open(os.environ["AVATAR_FILE"])
+    else:
+        url = api(f"/users/{USERNAME}")["avatar_url"]
+        url += ("&" if "?" in url else "?") + "s=460"
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "profile-card"}), timeout=20) as r:
+            im = Image.open(BytesIO(r.read()))
+    art = make_art(im)
+    open(ART_FILE, "w").write("\n".join(art) + "\n")
+except Exception as e:
+    print("Avatar -> ASCII failed, using saved art.txt:", e)
+if art is None:
+    art = open(ART_FILE).read().rstrip("\n").split("\n")
+
+# ---------- design: terminal window ----------
+FULL_NAME = "Prabhakant Tiwari"
+ROLE      = "DevOps Engineer"
+TITLE     = "cxdtm@devops: ~/profile"
+
+def cmd(text):    return [(28, "p", "$"), (48, "t", text)]
+def kv(k, v, vc="s"): return [(48, "k", k), (190, vc, v)]
+
+rows = [
+    cmd("whoami"),
+    [(48, "m", FULL_NAME.upper()), (270, "c", "//"), (295, "s", ROLE)],
     [],
-    header("Contact"),
-    kv("Email.Personal", EMAIL),
-    kv("LinkedIn", LINKEDIN),
-    kv("GitHub", USERNAME),
+    cmd("cat profile.yaml"),
+    kv("age:", AGE),
+    kv("experience:", EXP),
+    kv("os:", "linux · windows"),
+    kv("languages:", "english · hindi"),
     [],
-    header("GitHub Stats"),
-    kv("Repos", f"{stats['repos']} | Stars: {stats['stars']}"),
-    kv("Commits", f"{stats['commits']} | Followers: {stats['followers']}"),
+    cmd("./stack --list"),
+    kv("cloud", "AWS · Azure"),
+    kv("ci/cd", "Jenkins · GitHub Actions · GitLab CI"),
+    kv("containers", "Docker · Kubernetes · Helm"),
+    kv("iac", "Terraform · Ansible"),
+    kv("observe", "Prometheus · Grafana · ELK"),
+    kv("code", "Bash · Python · Groovy · YAML · HCL"),
+    [],
+    cmd("./pipeline.sh"),
+    [(48, "p", "● build"), (140, "c", "→"), (160, "p", "● test"), (245, "c", "→"), (265, "p", "● deploy")],
+    [],
+    cmd("./contact.sh"),
+    kv("mail", EMAIL),
+    kv("linkedin", LINKEDIN),
+    kv("github", "github.com/" + USERNAME),
+    [],
+    cmd("git shortlog --stats"),
+    [(48, "k", "repos"), (108, "s", str(stats["repos"])), (150, "k", "stars"), (210, "s", str(stats["stars"])),
+     (250, "k", "followers"), (340, "s", str(stats["followers"])), (385, "k", "commits"), (465, "s", str(stats["commits"]))],
+    [],
+    [(28, "p", "$")],
 ]
-
-art = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "art.txt")).read().rstrip("\n").split("\n")
-COLS = max(len(l) for l in art)
+CURSOR_ROW = len(rows) - 1
 
 themes = {
- "dark_mode":  dict(bg="#161b22", t="#c9d1d9", k="#ffa657", v="#a5d6ff", d="#6e7b8b"),
- "light_mode": dict(bg="#f6f8fa", t="#24292f", k="#953800", v="#0a3069", d="#a0aab5"),
+ "dark_mode":  dict(bg="#1a1b26", bar="#13141c", t="#c0caf5", p="#9ece6a", k="#7dcfff", s="#ff9e64", c="#565f89", m="#bb9af7", a="#7aa2f7"),
+ "light_mode": dict(bg="#f5f5f9", bar="#e4e5ee", t="#343b58", p="#33635c", k="#0f4b6e", s="#965027", c="#7c7f94", m="#5a3e8e", a="#34548a"),
 }
-LH, FS, CW = 20, 16, 9.6
-RX = 15 + (COLS + 3) * CW
-rows = max(len(art), len(right))
-width, height = int(RX + (RW + 2) * CW + 15), rows * LH + 30
-oa, orr = (rows - len(art)) // 2, (rows - len(right)) // 2
-here = os.path.dirname(os.path.abspath(__file__))
+D, L = themes["dark_mode"], themes["light_mode"]
 
-for name, c in themes.items():
-    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
-         f'<style>text{{font-family:Consolas,"Courier New","DejaVu Sans Mono",monospace;font-size:{FS}px;white-space:pre;fill:{c["t"]}}}'
-         f'.k{{fill:{c["k"]}}}.v{{fill:{c["v"]}}}.d{{fill:{c["d"]}}}</style>',
-         f'<rect width="100%" height="100%" rx="12" fill="{c["bg"]}"/>']
+LH, TOP, LEFT_W = 20, 62, 610
+ART_X, ART_CW, ART_LH, ART_FS = 640, 7.8, 14, 13
+cols = max(len(l) for l in art)
+WIDTH = int(ART_X + cols * ART_CW + 30)
+HEIGHT = TOP + len(rows) * LH + 24
+art_top = 36 + (HEIGHT - 36 - len(art) * ART_LH) / 2
+
+FONT = '"JetBrains Mono","Fira Code",Consolas,"DejaVu Sans Mono",monospace'
+KEYS = ["bg", "bar", "t", "p", "k", "s", "c", "m", "a"]
+
+def css(mode, c=None):
+    base = (f'text{{font-family:{FONT};font-size:15px;white-space:pre}}'
+            '.m{font-weight:700}.art{font-size:%dpx}.ttl{font-size:13px}'
+            '@keyframes blink{0%%,49%%{opacity:1}50%%,100%%{opacity:0}}.cur{animation:blink 1s step-end infinite}' % ART_FS)
+    out = []
+    for k in KEYS:
+        if mode == "anim":
+            out.append(f"@keyframes a_{k}{{0%,45%{{fill:{D[k]}}}50%,95%{{fill:{L[k]}}}100%{{fill:{D[k]}}}}}"
+                       f".{k}{{fill:{D[k]};animation:a_{k} {SWITCH_SECONDS*2}s infinite}}")
+        else:
+            out.append(f".{k}{{fill:{c[k]}}}")
+    return base + "".join(out)
+
+def render(mode, c=None):
+    o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}">',
+         f"<style>{css(mode, c)}</style>",
+         f'<rect class="bg" width="{WIDTH}" height="{HEIGHT}" rx="12"/>',
+         f'<rect class="bar" width="{WIDTH}" height="36" rx="12"/>',
+         f'<rect class="bar" y="24" width="{WIDTH}" height="12"/>',
+         '<circle cx="22" cy="18" r="6" fill="#ff5f56"/><circle cx="42" cy="18" r="6" fill="#ffbd2e"/><circle cx="62" cy="18" r="6" fill="#27c93f"/>',
+         f'<text class="c ttl" x="{WIDTH/2}" y="23" text-anchor="middle">{escape(TITLE)}</text>',
+         f'<rect class="c" x="{LEFT_W}" y="56" width="1" height="{HEIGHT-56-20}" opacity="0.5"/>']
+    for i, row in enumerate(rows):
+        y = TOP + i * LH
+        for x, cl, tx in row:
+            o.append(f'<text class="{cl}" x="{x}" y="{y}" xml:space="preserve">{escape(tx)}</text>')
+    cy = TOP + CURSOR_ROW * LH
+    o.append(f'<rect class="p cur" x="48" y="{cy-13}" width="9" height="16"/>')
     for i, ln in enumerate(art):
         if ln.strip():
-            s.append(f'<text x="15" y="{28+(i+oa)*LH}" xml:space="preserve">{escape(ln)}</text>')
-    for i, parts in enumerate(right):
-        if parts:
-            sp = "".join(f'<tspan class="{cl}">{escape(tx)}</tspan>' for cl, tx in parts)
-            s.append(f'<text x="{RX:.1f}" y="{28+(i+orr)*LH}" xml:space="preserve">{sp}</text>')
-    s.append("</svg>")
-    open(os.path.join(here, f"{name}.svg"), "w").write("\n".join(s))
+            o.append(f'<text class="a art" x="{ART_X}" y="{art_top + i*ART_LH:.1f}" xml:space="preserve" '
+                     f'textLength="{len(ln)*ART_CW:.1f}" lengthAdjust="spacing">{escape(ln)}</text>')
+    o.append("</svg>")
+    return "\n".join(o)
 
-# ---------- animated card (dark <-> light every SWITCH_SECONDS) ----------
-SWITCH_SECONDS = 2
-D, L = themes["dark_mode"], themes["light_mode"]
-cycle = SWITCH_SECONDS * 2
-def kf(name, key):
-    return (f"@keyframes {name}{{0%,45%{{fill:{D[key]}}}50%,95%{{fill:{L[key]}}}100%{{fill:{D[key]}}}}}"
-            f".{name}{{fill:{D[key]};animation:{name} {cycle}s infinite}}")
-a = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
-     f'<style>text{{font-family:Consolas,"Courier New","DejaVu Sans Mono",monospace;font-size:{FS}px;white-space:pre}}'
-     + kf("bg", "bg") + kf("t", "t") + kf("k", "k") + kf("v", "v") + kf("d", "d") + '</style>',
-     '<rect class="bg" width="100%" height="100%" rx="12"/>']
-for i, ln in enumerate(art):
-    if ln.strip():
-        a.append(f'<text class="t" x="15" y="{28+(i+oa)*LH}" xml:space="preserve">{escape(ln)}</text>')
-for i, parts in enumerate(right):
-    if parts:
-        sp = "".join(f'<tspan class="{cl}">{escape(tx)}</tspan>' for cl, tx in parts)
-        a.append(f'<text x="{RX:.1f}" y="{28+(i+orr)*LH}" xml:space="preserve">{sp}</text>')
-a.append("</svg>")
-open(os.path.join(here, "animated.svg"), "w").write("\n".join(a))
-
+here = os.path.dirname(os.path.abspath(__file__))
+for name, c in themes.items():
+    open(os.path.join(here, f"{name}.svg"), "w").write(render("static", c))
+open(os.path.join(here, "animated.svg"), "w").write(render("anim"))
 print("Updated:", AGE, "|", EXP, "|", stats)

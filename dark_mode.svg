@@ -1,55 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1095" height="570" viewBox="0 0 1095 570">
-<style>text{font-family:Consolas,"Courier New","DejaVu Sans Mono",monospace;font-size:16px;white-space:pre;fill:#c9d1d9}.k{fill:#ffa657}.v{fill:#a5d6ff}.d{fill:#6e7b8b}</style>
-<rect width="100%" height="100%" rx="12" fill="#161b22"/>
-<text x="15" y="28" xml:space="preserve">               --+*###%##***+-:</text>
-<text x="15" y="48" xml:space="preserve">            .+%##%#%%@@%%%@@@@@%*-</text>
-<text x="15" y="68" xml:space="preserve">           :%%%#%#%%%%#%%%%%%@@@@@*</text>
-<text x="15" y="88" xml:space="preserve">          =%%%@@@@@@@@@@%%%%@@@@@@@*</text>
-<text x="15" y="108" xml:space="preserve">         +%%@@%*+++++**##%%%@@@@@@@@#.</text>
-<text x="15" y="128" xml:space="preserve">        *@@@%+-::::.::--==++*#%@@@@@@*</text>
-<text x="15" y="148" xml:space="preserve">       :@@@*-:.......::----==+*#%@@@@%</text>
-<text x="15" y="168" xml:space="preserve">       :@%%-:........:::---=+++**#@@@*</text>
-<text x="15" y="188" xml:space="preserve">       -@%+:...  ...::::::-==+++**%@@=</text>
-<text x="15" y="208" xml:space="preserve">       :%*:.....    .:...::-===++*#%@:</text>
-<text x="15" y="228" xml:space="preserve">       .%-:-=+****+=-.:-=+*######**%%</text>
-<text x="15" y="248" xml:space="preserve">        #-:-=++#%%%*- -*%%%%%%####*##</text>
-<text x="15" y="268" xml:space="preserve">        +..-=+-#%*#+:.-*%#*#%##%#*+*+</text>
-<text x="15" y="288" xml:space="preserve">       :-..:::-=+*=:. -+*#######*+++#=</text>
-<text x="15" y="308" xml:space="preserve">        ::  .::--: .  :+****+++===+**.</text>
-<text x="15" y="328" xml:space="preserve">        -:    ..   .  .=++========+**.</text>
-<text x="15" y="348" xml:space="preserve">        ..      ...--=+*#*=---===++#=</text>
-<text x="15" y="368" xml:space="preserve">         :.    .:::--*+*#***=====+*+.</text>
-<text x="15" y="388" xml:space="preserve">          :.   :=++=++*####**+==+*+</text>
-<text x="15" y="408" xml:space="preserve">          .:...-=:--=++*#***++++++</text>
-<text x="15" y="428" xml:space="preserve">           .-::::..:-+*++=++++***</text>
-<text x="15" y="448" xml:space="preserve">           .---:.....::-=++***###:</text>
-<text x="15" y="468" xml:space="preserve">          .+::----==++++****###*#%-</text>
-<text x="15" y="488" xml:space="preserve">          =#::.:--+**#######****#%+.</text>
-<text x="15" y="508" xml:space="preserve">          :#+....::-=+******++**%*-. .</text>
-<text x="15" y="528" xml:space="preserve">           =#=:.::::--==+++++++##..: ::::.</text>
-<text x="15" y="548" xml:space="preserve">     .     .+#*-:::::--=====+++#: .: .:.-: .:.</text>
-<text x="485.4" y="28" xml:space="preserve"><tspan class="d">- prabhakant@tiwari ----------------------------------------</tspan></text>
-<text x="485.4" y="48" xml:space="preserve"><tspan class="k">. OS: </tspan><tspan class="d">......................... </tspan><tspan class="v">Linux (Ubuntu, RHEL), Windows</tspan></text>
-<text x="485.4" y="68" xml:space="preserve"><tspan class="k">. Uptime: </tspan><tspan class="d">....................... </tspan><tspan class="v">34 years, 6 months, 19 days</tspan></text>
-<text x="485.4" y="88" xml:space="preserve"><tspan class="k">. Role: </tspan><tspan class="d">..................................... </tspan><tspan class="v">DevOps Engineer</tspan></text>
-<text x="485.4" y="108" xml:space="preserve"><tspan class="k">. Experience: </tspan><tspan class="d">............................. </tspan><tspan class="v">3 years, 9 months</tspan></text>
-<text x="485.4" y="128" xml:space="preserve"><tspan class="k">. Cloud: </tspan><tspan class="d">......................................... </tspan><tspan class="v">AWS, Azure</tspan></text>
-<text x="485.4" y="148" xml:space="preserve"><tspan class="k">. CI/CD: </tspan><tspan class="d">................. </tspan><tspan class="v">Jenkins, GitHub Actions, GitLab CI</tspan></text>
-<text x="485.4" y="168" xml:space="preserve"><tspan class="k">. Containers: </tspan><tspan class="d">...................... </tspan><tspan class="v">Docker, Kubernetes, Helm</tspan></text>
-<text x="485.4" y="188" xml:space="preserve"><tspan class="k">. IaC: </tspan><tspan class="d">................................... </tspan><tspan class="v">Terraform, Ansible</tspan></text>
-<text x="485.4" y="208" xml:space="preserve"><tspan class="k">. Monitoring: </tspan><tspan class="d">...................... </tspan><tspan class="v">Prometheus, Grafana, ELK</tspan></text>
-<text x="485.4" y="228" xml:space="preserve"><tspan class="d">.</tspan></text>
-<text x="485.4" y="248" xml:space="preserve"><tspan class="k">. Languages.Programming: </tspan><tspan class="d">............... </tspan><tspan class="v">Bash, Python, Groovy</tspan></text>
-<text x="485.4" y="268" xml:space="preserve"><tspan class="k">. Languages.Computer: </tspan><tspan class="d">........... </tspan><tspan class="v">YAML, JSON, HCL, Dockerfile</tspan></text>
-<text x="485.4" y="288" xml:space="preserve"><tspan class="k">. Languages.Real: </tspan><tspan class="d">............................ </tspan><tspan class="v">English, Hindi</tspan></text>
-<text x="485.4" y="308" xml:space="preserve"><tspan class="d">.</tspan></text>
-<text x="485.4" y="328" xml:space="preserve"><tspan class="k">. Hobbies.Software: </tspan><tspan class="d">................. </tspan><tspan class="v">Automation, Open Source</tspan></text>
-<text x="485.4" y="348" xml:space="preserve"><tspan class="k">. Hobbies.Hardware: </tspan><tspan class="d">................................ </tspan><tspan class="v">Home Lab</tspan></text>
-<text x="485.4" y="388" xml:space="preserve"><tspan class="d">- Contact --------------------------------------------------</tspan></text>
-<text x="485.4" y="408" xml:space="preserve"><tspan class="k">. Email.Personal: </tspan><tspan class="d">...................... </tspan><tspan class="v">your-email@gmail.com</tspan></text>
-<text x="485.4" y="428" xml:space="preserve"><tspan class="k">. LinkedIn: </tspan><tspan class="d">................................ </tspan><tspan class="v">your-linkedin-id</tspan></text>
-<text x="485.4" y="448" xml:space="preserve"><tspan class="k">. GitHub: </tspan><tspan class="d">............................................. </tspan><tspan class="v">CXDTM</tspan></text>
-<text x="485.4" y="488" xml:space="preserve"><tspan class="d">- GitHub Stats ---------------------------------------------</tspan></text>
-<text x="485.4" y="508" xml:space="preserve"><tspan class="k">. Repos: </tspan><tspan class="d">....................................... </tspan><tspan class="v">2 | Stars: 3</tspan></text>
-<text x="485.4" y="528" xml:space="preserve"><tspan class="k">. Commits: </tspan><tspan class="d">................................. </tspan><tspan class="v">5 | Followers: 0</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1028" height="666" viewBox="0 0 1028 666">
+<style>text{font-family:"JetBrains Mono","Fira Code",Consolas,"DejaVu Sans Mono",monospace;font-size:15px;white-space:pre}.m{font-weight:700}.art{font-size:13px}.ttl{font-size:13px}@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}.cur{animation:blink 1s step-end infinite}.bg{fill:#1a1b26}.bar{fill:#13141c}.t{fill:#c0caf5}.p{fill:#9ece6a}.k{fill:#7dcfff}.s{fill:#ff9e64}.c{fill:#565f89}.m{fill:#bb9af7}.a{fill:#7aa2f7}</style>
+<rect class="bg" width="1028" height="666" rx="12"/>
+<rect class="bar" width="1028" height="36" rx="12"/>
+<rect class="bar" y="24" width="1028" height="12"/>
+<circle cx="22" cy="18" r="6" fill="#ff5f56"/><circle cx="42" cy="18" r="6" fill="#ffbd2e"/><circle cx="62" cy="18" r="6" fill="#27c93f"/>
+<text class="c ttl" x="514.0" y="23" text-anchor="middle">cxdtm@devops: ~/profile</text>
+<rect class="c" x="610" y="56" width="1" height="590" opacity="0.5"/>
+<text class="p" x="28" y="62" xml:space="preserve">$</text>
+<text class="t" x="48" y="62" xml:space="preserve">whoami</text>
+<text class="m" x="48" y="82" xml:space="preserve">PRABHAKANT TIWARI</text>
+<text class="c" x="270" y="82" xml:space="preserve">//</text>
+<text class="s" x="295" y="82" xml:space="preserve">DevOps Engineer</text>
+<text class="p" x="28" y="122" xml:space="preserve">$</text>
+<text class="t" x="48" y="122" xml:space="preserve">cat profile.yaml</text>
+<text class="k" x="48" y="142" xml:space="preserve">age:</text>
+<text class="s" x="190" y="142" xml:space="preserve">34y 6m 20d</text>
+<text class="k" x="48" y="162" xml:space="preserve">experience:</text>
+<text class="s" x="190" y="162" xml:space="preserve">3y 9m</text>
+<text class="k" x="48" y="182" xml:space="preserve">os:</text>
+<text class="s" x="190" y="182" xml:space="preserve">linux · windows</text>
+<text class="k" x="48" y="202" xml:space="preserve">languages:</text>
+<text class="s" x="190" y="202" xml:space="preserve">english · hindi</text>
+<text class="p" x="28" y="242" xml:space="preserve">$</text>
+<text class="t" x="48" y="242" xml:space="preserve">./stack --list</text>
+<text class="k" x="48" y="262" xml:space="preserve">cloud</text>
+<text class="s" x="190" y="262" xml:space="preserve">AWS · Azure</text>
+<text class="k" x="48" y="282" xml:space="preserve">ci/cd</text>
+<text class="s" x="190" y="282" xml:space="preserve">Jenkins · GitHub Actions · GitLab CI</text>
+<text class="k" x="48" y="302" xml:space="preserve">containers</text>
+<text class="s" x="190" y="302" xml:space="preserve">Docker · Kubernetes · Helm</text>
+<text class="k" x="48" y="322" xml:space="preserve">iac</text>
+<text class="s" x="190" y="322" xml:space="preserve">Terraform · Ansible</text>
+<text class="k" x="48" y="342" xml:space="preserve">observe</text>
+<text class="s" x="190" y="342" xml:space="preserve">Prometheus · Grafana · ELK</text>
+<text class="k" x="48" y="362" xml:space="preserve">code</text>
+<text class="s" x="190" y="362" xml:space="preserve">Bash · Python · Groovy · YAML · HCL</text>
+<text class="p" x="28" y="402" xml:space="preserve">$</text>
+<text class="t" x="48" y="402" xml:space="preserve">./pipeline.sh</text>
+<text class="p" x="48" y="422" xml:space="preserve">● build</text>
+<text class="c" x="140" y="422" xml:space="preserve">→</text>
+<text class="p" x="160" y="422" xml:space="preserve">● test</text>
+<text class="c" x="245" y="422" xml:space="preserve">→</text>
+<text class="p" x="265" y="422" xml:space="preserve">● deploy</text>
+<text class="p" x="28" y="462" xml:space="preserve">$</text>
+<text class="t" x="48" y="462" xml:space="preserve">./contact.sh</text>
+<text class="k" x="48" y="482" xml:space="preserve">mail</text>
+<text class="s" x="190" y="482" xml:space="preserve">your-email@gmail.com</text>
+<text class="k" x="48" y="502" xml:space="preserve">linkedin</text>
+<text class="s" x="190" y="502" xml:space="preserve">your-linkedin-id</text>
+<text class="k" x="48" y="522" xml:space="preserve">github</text>
+<text class="s" x="190" y="522" xml:space="preserve">github.com/CXDTM</text>
+<text class="p" x="28" y="562" xml:space="preserve">$</text>
+<text class="t" x="48" y="562" xml:space="preserve">git shortlog --stats</text>
+<text class="k" x="48" y="582" xml:space="preserve">repos</text>
+<text class="s" x="108" y="582" xml:space="preserve">2</text>
+<text class="k" x="150" y="582" xml:space="preserve">stars</text>
+<text class="s" x="210" y="582" xml:space="preserve">3</text>
+<text class="k" x="250" y="582" xml:space="preserve">followers</text>
+<text class="s" x="340" y="582" xml:space="preserve">0</text>
+<text class="k" x="385" y="582" xml:space="preserve">commits</text>
+<text class="s" x="465" y="582" xml:space="preserve">5</text>
+<text class="p" x="28" y="622" xml:space="preserve">$</text>
+<rect class="p cur" x="48" y="609" width="9" height="16"/>
+<text class="a art" x="640" y="162.0" xml:space="preserve" textLength="241.8" lengthAdjust="spacing">               --+*###%##***+-:</text>
+<text class="a art" x="640" y="176.0" xml:space="preserve" textLength="265.2" lengthAdjust="spacing">            .+%##%#%%@@%%%@@@@@%*-</text>
+<text class="a art" x="640" y="190.0" xml:space="preserve" textLength="273.0" lengthAdjust="spacing">           :%%%#%#%%%%#%%%%%%@@@@@*</text>
+<text class="a art" x="640" y="204.0" xml:space="preserve" textLength="280.8" lengthAdjust="spacing">          =%%%@@@@@@@@@@%%%%@@@@@@@*</text>
+<text class="a art" x="640" y="218.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">         +%%@@%*+++++**##%%%@@@@@@@@#.</text>
+<text class="a art" x="640" y="232.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">        *@@@%+-::::.::--==++*#%@@@@@@*</text>
+<text class="a art" x="640" y="246.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">       :@@@*-:.......::----==+*#%@@@@%</text>
+<text class="a art" x="640" y="260.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">       :@%%-:........:::---=+++**#@@@*</text>
+<text class="a art" x="640" y="274.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">       -@%+:...  ...::::::-==+++**%@@=</text>
+<text class="a art" x="640" y="288.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">       :%*:.....    .:...::-===++*#%@:</text>
+<text class="a art" x="640" y="302.0" xml:space="preserve" textLength="288.6" lengthAdjust="spacing">       .%-:-=+****+=-.:-=+*######**%%</text>
+<text class="a art" x="640" y="316.0" xml:space="preserve" textLength="288.6" lengthAdjust="spacing">        #-:-=++#%%%*- -*%%%%%%####*##</text>
+<text class="a art" x="640" y="330.0" xml:space="preserve" textLength="288.6" lengthAdjust="spacing">        +..-=+-#%*#+:.-*%#*#%##%#*+*+</text>
+<text class="a art" x="640" y="344.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">       :-..:::-=+*=:. -+*#######*+++#=</text>
+<text class="a art" x="640" y="358.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">        ::  .::--: .  :+****+++===+**.</text>
+<text class="a art" x="640" y="372.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">        -:    ..   .  .=++========+**.</text>
+<text class="a art" x="640" y="386.0" xml:space="preserve" textLength="288.6" lengthAdjust="spacing">        ..      ...--=+*#*=---===++#=</text>
+<text class="a art" x="640" y="400.0" xml:space="preserve" textLength="288.6" lengthAdjust="spacing">         :.    .:::--*+*#***=====+*+.</text>
+<text class="a art" x="640" y="414.0" xml:space="preserve" textLength="273.0" lengthAdjust="spacing">          :.   :=++=++*####**+==+*+</text>
+<text class="a art" x="640" y="428.0" xml:space="preserve" textLength="265.2" lengthAdjust="spacing">          .:...-=:--=++*#***++++++</text>
+<text class="a art" x="640" y="442.0" xml:space="preserve" textLength="257.4" lengthAdjust="spacing">           .-::::..:-+*++=++++***</text>
+<text class="a art" x="640" y="456.0" xml:space="preserve" textLength="265.2" lengthAdjust="spacing">           .---:.....::-=++***###:</text>
+<text class="a art" x="640" y="470.0" xml:space="preserve" textLength="273.0" lengthAdjust="spacing">          .+::----==++++****###*#%-</text>
+<text class="a art" x="640" y="484.0" xml:space="preserve" textLength="280.8" lengthAdjust="spacing">          =#::.:--+**#######****#%+.</text>
+<text class="a art" x="640" y="498.0" xml:space="preserve" textLength="296.4" lengthAdjust="spacing">          :#+....::-=+******++**%*-. .</text>
+<text class="a art" x="640" y="512.0" xml:space="preserve" textLength="327.6" lengthAdjust="spacing">           =#=:.::::--==+++++++##..: ::::.</text>
+<text class="a art" x="640" y="526.0" xml:space="preserve" textLength="358.8" lengthAdjust="spacing">     .     .+#*-:::::--=====+++#: .: .:.-: .:.</text>
 </svg>
