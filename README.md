@@ -7,9 +7,9 @@
 # Hi 👋, I'm Prabhakant Tiwari
 **A passionate Cloud Engineer || DevOps Engineer **
 
-Email Me 👉 ✉️ **prabhakant.tiawri@gmail.com** 
+Email Me 👉 ✉️ **prabhakantshandilya@gmail.com** 
 
-### `$ Tech stack
+### Tech stack
 
 **Cloud** &nbsp; ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square) 
 
@@ -23,7 +23,7 @@ Email Me 👉 ✉️ **prabhakant.tiawri@gmail.com**
 
 **Code and OS** &nbsp; ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-### Cponnect with me
+### Connect with me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/YOUR-LINKEDIN-ID](https://www.linkedin.com/in/prabhakant-tiwari-86637476/))
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:prabhakanttiwari@gmai.comY)
