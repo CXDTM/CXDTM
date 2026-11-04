@@ -9,7 +9,7 @@
 <text class="p" x="28" y="62" xml:space="preserve">$</text>
 <text class="t" x="48" y="62" xml:space="preserve">whoami</text>
 <text class="m" x="48" y="82" xml:space="preserve">PRABHAKANT TIWARI</text>
-<text class="c" x="270" y="82" xml:space="preserve">//</text>
+<text class="c" x="270" y="82" xml:space="preserve"> </text>
 <text class="s" x="295" y="82" xml:space="preserve">DevOps Engineer</text>
 <text class="p" x="28" y="122" xml:space="preserve">$</text>
 <text class="t" x="48" y="122" xml:space="preserve">cat profile.yaml</text>
