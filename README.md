@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img alt="Animated CI/CD pipeline where a truck carries each release to production" src="trucks.svg">
+  <img alt="Animated 3D trunk-based development pipeline: short-lived branches merge into main, CI gate, production" src="trunk.svg">
 </p>
 
 <p align="center">
